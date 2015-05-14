@@ -1853,7 +1853,8 @@
 Variables
  */
 body.tp {
-  margin: 0; }
+  margin: 0;
+  background: #ecf0f3; }
 
 html.tp[ng-app] {
   background: #ecf0f3; }
@@ -1923,7 +1924,8 @@ html.tp[ng-app] {
     /* Button unstyled */ }
     .tapestry-header .form-control .text-input {
       padding-right: 35px;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      border-radius: 20px; }
     .tapestry-header .form-control .fa {
       position: absolute;
       right: 10px;
@@ -1932,12 +1934,14 @@ html.tp[ng-app] {
       margin-top: -8px;
       height: 15px;
       color: #BFBFBF; }
-    .tapestry-header .form-control.icon-left .text-input {
-      padding-left: 35px;
-      padding-right: inherit; }
-    .tapestry-header .form-control.icon-left .fa {
-      left: 10px;
-      right: auto; }
+    .tapestry-header .form-control.icon-left {
+      background: none; }
+      .tapestry-header .form-control.icon-left .text-input {
+        padding-left: 35px;
+        padding-right: inherit; }
+      .tapestry-header .form-control.icon-left .fa {
+        left: 10px;
+        right: auto; }
     .tapestry-header .form-control .btn--unstyled {
       padding: 0;
       margin: 0;
@@ -2151,7 +2155,8 @@ html.tp[ng-app] {
 /* Heading */
 .tapestry__heading {
   margin: 8px 0 0 0;
-  font-family: 'Open Sans', Helvetica, Arial; }
+  font-family: 'Open Sans', Helvetica, Arial;
+  color: #fff; }
   @media only screen and (max-width: 960px) {
     .tapestry__heading {
       margin-top: 9px;
@@ -2182,7 +2187,7 @@ html.tp[ng-app] {
         margin: 0 auto;
         width: auto; } }
   .tapestry-wrapper.ext.tp .block--preview.tp {
-    padding: 0; }
+    padding: 0 15px 40px; }
 
 /* Menu opened */
 .menu__opened body {
@@ -2422,7 +2427,10 @@ code.tp {
 .palette.tp {
   list-style: none;
   margin-left: 0;
-  font-size: 0; }
+  font-size: 0;
+  /*.color:last-child{
+        border-radius: 0 0 5px 5px;
+    }*/ }
   .palette.tp > li {
     margin-right: 1%;
     font-size: 13px;
@@ -2436,14 +2444,11 @@ code.tp {
   .palette.tp span {
     display: block; }
   .palette.tp .color {
-    border-radius: 5px 5px 0 0;
     height: 80px;
     padding-top: 1.5em; }
     @media only screen and (min-width: 600px) {
       .palette.tp .color {
         height: 120px; } }
-  .palette.tp .color:last-child {
-    border-radius: 0 0 5px 5px; }
   .palette.tp h3 {
     color: #333;
     font-size: 14px;
@@ -2458,6 +2463,11 @@ code.tp {
   .row--demo.tp > .columns {
     background: #eee;
     border: 1px #ddd solid; }
+
+*[class*='col-'] {
+  border: 1px #ddd solid;
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
 /**
  * Template listing

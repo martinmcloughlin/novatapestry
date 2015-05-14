@@ -1,40 +1,44 @@
 
 ---
 name: Grid desktop
+hidecode: true
+description: |
+   ### What
+   Demo grid using col-lg-# classes
 ---
-<div class="row row--demo tp">
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
+<div class="row">
+  <div class="col-lg-1">1</div>
+  <div class="col-lg-1">1</div>
+  <div class="col-lg-1">1</div>
+  <div class="col-lg-1">1</div>
+  <div class="col-lg-1">1</div>
+  <div class="col-lg-1">1</div>
+  <div class="col-lg-1">1</div>
+  <div class="col-lg-1">1</div>
+  <div class="col-lg-1">1</div>
+  <div class="col-lg-1">1</div>
+  <div class="col-lg-1">1</div>
+  <div class="col-lg-1">1</div>
 </div>
-<div class="row row--demo tp">
-  <div class="columns twelve">twelve</div>
+<div class="row">
+  <div class="col-lg-12">12</div>
 </div>
-<div class="row row--demo tp">
-  <div class="columns eight">eight</div>
-  <div class="columns four">four</div>
+<div class="row">
+  <div class="col-lg-8">8</div>
+  <div class="col-lg-4">4</div>
 </div>
-<div class="row row--demo tp">
-  <div class="columns four">four</div>
-  <div class="columns four">four</div>
-  <div class="columns four">four</div>
+<div class="row">
+  <div class="col-lg-4">4</div>
+  <div class="col-lg-4">4</div>
+  <div class="col-lg-4">4</div>
 </div>
-<div class="row row--demo tp">
-  <div class="columns three">three</div>
-  <div class="columns three">three</div>
-  <div class="columns three">three</div>
-  <div class="columns three">three</div>
+<div class="row">
+  <div class="col-lg-3">3</div>
+  <div class="col-lg-3">3</div>
+  <div class="col-lg-3">3</div>
+  <div class="col-lg-3">3</div>
 </div>
-<div class="row row--demo tp">
-  <div class="columns six">six</div>
-  <div class="columns six">six</div>
+<div class="row">
+  <div class="col-lg-6">6</div>
+  <div class="col-lg-6">6</div>
 </div>

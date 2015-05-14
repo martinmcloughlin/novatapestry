@@ -20,17 +20,9 @@
                 }
             },
             {
-                "path": "patterns/1.NovaElements/1.Colors/original-palette.md",
-                "name": "Color palette",
-                "slug": "original-palette.md",
-                "meta": {
-                    "hidecode": true
-                }
-            },
-            {
-                "path": "patterns/1.NovaElements/1.Colors/palette.md",
-                "name": "Color palette",
-                "slug": "palette.md",
+                "path": "patterns/1.NovaElements/1.Colors/99.full-colour-palette.md",
+                "name": "Full color palette",
+                "slug": "99.full-colour-palette.md",
                 "meta": {
                     "hidecode": true
                 }

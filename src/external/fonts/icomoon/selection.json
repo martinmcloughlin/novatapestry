@@ -1,0 +1,131 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M915.2 784l-201.6-201.6c28.8-44.8 41.6-96 41.6-153.6 0-166.4-134.4-300.8-300.8-300.8s-300.8 134.4-300.8 300.8 134.4 300.8 300.8 300.8c57.6 0 108.8-16 153.6-41.6l201.6 201.6 105.6-105.6zM268.8 428.8c0-102.4 83.2-185.6 185.6-185.6s185.6 83.2 185.6 185.6-83.2 185.6-185.6 185.6-185.6-83.2-185.6-185.6z"
+				],
+				"grid": 0,
+				"tags": [
+					"search"
+				]
+			},
+			"properties": {
+				"order": 1,
+				"id": 3,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "search",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
+					"M118.4 160h790.4v102.4h-790.4v-102.4z",
+					"M118.4 547.2h790.4v102.4h-790.4v-102.4z",
+					"M118.4 355.2h790.4v102.4h-790.4v-102.4z",
+					"M118.4 742.4h790.4v102.4h-790.4v-102.4z"
+				],
+				"grid": 0,
+				"tags": [
+					"menu"
+				]
+			},
+			"properties": {
+				"order": 2,
+				"id": 2,
+				"prevSize": 32,
+				"code": 58881,
+				"name": "menu",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 1
+		},
+		{
+			"icon": {
+				"paths": [
+					"M921.6 320c-9.6-108.8-102.4-192-214.4-192-86.4 0-163.2 54.4-195.2 131.2-32-76.8-108.8-131.2-198.4-131.2-112 0-201.6 83.2-214.4 192 0 6.4 0 16 0 22.4 0 259.2 320 384 412.8 556.8v0c92.8-172.8 412.8-297.6 412.8-556.8 0-9.6 0-16-3.2-22.4z"
+				],
+				"grid": 0,
+				"tags": [
+					"heart"
+				]
+			},
+			"properties": {
+				"order": 3,
+				"id": 1,
+				"prevSize": 32,
+				"code": 58882,
+				"name": "heart",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 2
+		},
+		{
+			"icon": {
+				"paths": [
+					"M976 265.6h-684.8l-9.6-35.2c-32-105.6-176-124.8-230.4-28.8-22.4 41.6 38.4 76.8 60.8 35.2 25.6-41.6 89.6-35.2 102.4 12.8l147.2 518.4c-16-25.6-44.8-38.4-73.6-38.4-51.2 0-89.6 41.6-89.6 89.6 0 51.2 41.6 89.6 89.6 89.6 51.2 0 89.6-41.6 89.6-89.6 0-6.4 0-12.8-3.2-19.2h342.4c0 6.4-3.2 12.8-3.2 19.2 0 51.2 41.6 89.6 89.6 89.6 51.2 0 89.6-41.6 89.6-89.6s-38.4-89.6-89.6-89.6c0 0 0 0 0 0h-384l-19.2-67.2 537.6-64 38.4-332.8z"
+				],
+				"grid": 0,
+				"tags": [
+					"cart"
+				]
+			},
+			"properties": {
+				"order": 4,
+				"id": 0,
+				"prevSize": 32,
+				"code": 58883,
+				"name": "cart",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 3
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": false
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": false,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"search": ""
+	}
+}

@@ -4,14 +4,14 @@
 		
 		.main-content
 
-			div(preview-only patterns="patterns")
+			div(preview-and-markup patterns="patterns")
 
 			ul.pattern-list.tp
 				li(ng-repeat="pattern in patterns.children")
 					
 					h3(id="{{pattern.name | anchor}}", once-text="pattern.name")
 					
-					div(preview-only patterns="pattern")
+					div(preview-and-markup patterns="pattern")
 
 					div.pattern-variation.tp(ng-repeat="variation in pattern.children")
 						h4(id="{{variation.name | anchor}}", once-text="variation.name")

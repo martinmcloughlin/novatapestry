@@ -21,6 +21,7 @@ $tp-color-dark: #1F253D;
 
 body.tp{
     margin: 0;
+    background: $tp-bg;
 }
 
 html.tp[ng-app]{
@@ -89,6 +90,7 @@ html.tp[ng-app]{
         .text-input{
             padding-right: 35px;
             margin-bottom: 0;
+            border-radius: 20px;
         }
 
         .fa{
@@ -105,6 +107,8 @@ html.tp[ng-app]{
         /* Icon on the left side */
 
         &.icon-left {
+            
+            background: none;
             
             .text-input{
                 padding-left: 35px;
@@ -424,6 +428,7 @@ $tp-menu-spacing: 20px;
 .tapestry__heading{
     margin: 8px 0 0 0;     
     font-family: $tp-fontfamily;
+    color: #fff;
 
     @include media-query(phone-desk){
         margin-top: 9px;
@@ -473,7 +478,7 @@ $tp-menu-spacing: 20px;
         }
         .block--preview.tp {
             //padding-bottom : 15px;
-            padding: 0;
+            padding: 0 15px 40px;
         }
     }
 }
@@ -816,7 +821,7 @@ $tp-menu-spacing: 20px;
     }
 
     .color{
-        border-radius: 5px 5px 0 0;
+        //border-radius: 5px 5px 0 0;
         height: 80px;
         padding-top: 1.5em;
 
@@ -825,9 +830,9 @@ $tp-menu-spacing: 20px;
         }
     }
 
-    .color:last-child{
+    /*.color:last-child{
         border-radius: 0 0 5px 5px;
-    }
+    }*/
 
     h3{
         color: #333;
@@ -848,6 +853,13 @@ $tp-menu-spacing: 20px;
         background: #eee;
         border: 1px #ddd solid;
     }
+}
+
+*[class*='col-']{
+    border: 1px #ddd solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 }
 
 

@@ -1,40 +1,44 @@
 
 ---
 name: Grid tablet
+hidecode: true
+description: |
+   ### What
+   Demo grid using col-md-# classes
 ---
-<div class="row row--demo tp">
-  <div class="columns one one--tablet">one</div>
-  <div class="columns one one--tablet">one</div>
-  <div class="columns one one--tablet">one</div>
-  <div class="columns one one--tablet">one</div>
-  <div class="columns one one--tablet">one</div>
-  <div class="columns one one--tablet">one</div>
-  <div class="columns one one--tablet">one</div>
-  <div class="columns one one--tablet">one</div>
-  <div class="columns one one--tablet">one</div>
-  <div class="columns one one--tablet">one</div>
-  <div class="columns one one--tablet">one</div>
-  <div class="columns one one--tablet">one</div>
+<div class="row">
+  <div class="col-md-1">1</div>
+  <div class="col-md-1">1</div>
+  <div class="col-md-1">1</div>
+  <div class="col-md-1">1</div>
+  <div class="col-md-1">1</div>
+  <div class="col-md-1">1</div>
+  <div class="col-md-1">1</div>
+  <div class="col-md-1">1</div>
+  <div class="col-md-1">1</div>
+  <div class="col-md-1">1</div>
+  <div class="col-md-1">1</div>
+  <div class="col-md-1">1</div>
 </div>
-<div class="row row--demo tp">
-  <div class="columns twelve twelve--tablet">twelve</div>
+<div class="row">
+  <div class="col-md-12">12</div>
 </div>
-<div class="row row--demo tp">
-  <div class="columns eight four--tablet">eight</div>
-  <div class="columns four eight--tablet">four</div>
+<div class="row">
+  <div class="col-md-8">8</div>
+  <div class="col-md-4">4</div>
 </div>
-<div class="row row--demo tp">
-  <div class="columns four four--tablet">four</div>
-  <div class="columns four four--tablet">four</div>
-  <div class="columns four four--tablet">four</div>
+<div class="row">
+  <div class="col-md-4">4</div>
+  <div class="col-md-4">4</div>
+  <div class="col-md-4">4</div>
 </div>
-<div class="row row--demo tp">
-  <div class="columns three three--tablet">three</div>
-  <div class="columns three three--tablet">three</div>
-  <div class="columns three three--tablet">three</div>
-  <div class="columns three three--tablet">three</div>
+<div class="row">
+  <div class="col-md-3">3</div>
+  <div class="col-md-3">3</div>
+  <div class="col-md-3">3</div>
+  <div class="col-md-3">3</div>
 </div>
-<div class="row row--demo tp">
-  <div class="columns six six--tablet">six</div>
-  <div class="columns six six--tablet">six</div>
+<div class="row">
+  <div class="col-md-6">6</div>
+  <div class="col-md-6">6</div>
 </div>

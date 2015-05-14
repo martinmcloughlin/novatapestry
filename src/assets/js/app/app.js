@@ -4,9 +4,9 @@
  * Configuration
  */
 
-var version = '1.0.0',
-    lastUpdated = '26 Feb 2014',
-    disqus_shortname = 'tapestryapp';
+var version = '1.0.1',
+    lastUpdated = '14 May 2015',
+    disqus_shortname = '';//'novastyleguide';
 
 
 /* jsonPath of the files will be inserted by gulp-script-inject after reading /src/json folder */
