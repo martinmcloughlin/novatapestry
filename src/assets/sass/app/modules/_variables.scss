@@ -1,0 +1,227 @@
+/*------------------------------------*\
+    $tp-DEBUG
+\*------------------------------------*/
+/**
+ * Debug mode will visually highlight any potential markup/accessibility quirks
+ * in the browser. Set to `true` or `false`.
+ */
+
+$tp-debug-mode : false;
+
+
+/*------------------------------------*\
+    $tp-OBJECTS AND ABSTRACTIONS FROM INUIT CSS
+\*------------------------------------*/
+/**
+ * Which objects and abstractions would you like to use?
+ */
+
+$tp-use-beautons     : true;
+$tp-use-rules: true;
+
+
+/*------------------------------------*\
+    $tp-BASE
+\*------------------------------------*/
+
+$tp-base-color       : #444;
+$tp-base-font-family : 'Open Sans', Helvetica, Arial;
+$tp-base-font-size   : 14px;
+$tp-base-line-height : 24px;
+$tp-base-spacing-unit: $tp-base-line-height;
+$tp-base-ui-color    : #BFBFBF;
+$tp-base-radius: 2px;
+$tp-base-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+
+/*------------------------------------*\
+    $tp-UI ELEMENTS
+\*------------------------------------*/
+
+$tp-ui-radius: 2px;
+
+
+/*------------------------------------*\
+    $tp-TEXT DIRECTION
+\*------------------------------------*/
+
+$tp-dir-default : "left";
+$tp-dir-reverse : "right";
+$tp-direction   : "LTR";
+
+@if $tp-direction == "RTL" {
+    $tp-dir-default : "right";
+    $tp-dir-reverse : "left";
+}
+
+/*------------------------------------*\
+    $tp-COLOR SWATCHES
+\*------------------------------------*/
+
+$tp-color-warning: #E74C3C;
+$tp-color-primary: #1ABC9C;
+
+
+$tp-color-dark: #1F253D;
+$tp-color-light-blue: #272F4D;
+
+$tp-color-nice-blue: #394264;
+
+$tp-color-light-grey: #EDEEF1;
+
+$tp-color-dark-grey: #BDC3C7;
+
+
+/*------------------------------------*\
+    $tp-GRID SETTINGS
+\*------------------------------------*/
+
+$tp-grid-columns : 12;
+$tp-grid-spacing : 30px;
+$tp-site-width   : 960px;
+
+
+/*------------------------------------*\
+    $tp-BREAKPOINTS
+\*------------------------------------*/
+
+$tp-phone-breakpoint-end        : 480px;
+$tp-tablet-breakpoint-start     : 600px;
+$tp-desktop-breakpoint-start    : $tp-site-width;
+$tp-widescreen-breakpoint-start : 1400px;
+
+
+/*------------------------------------*\
+    $tp-TYPOGRAPHY
+\*------------------------------------*/
+
+
+$tp-heading-font-family: $tp-base-font-family;
+
+    /**
+     * Mobile Sizes     
+     */
+    
+    $tp-h1-size: 30px; //.alpha
+    $tp-h2-size: 24px; //.beta
+    $tp-h3-size: 20px; //.gamma
+    $tp-h4-size: 18px; //.delta
+    $tp-h5-size: 16px; //.epsilon
+    $tp-h6-size: 14px; //.zeta
+
+
+    /**
+     * Desktop font size
+     * Both tablets and desktops
+     */
+    
+    $tp-h1-size-desktop: 48px;
+    $tp-h2-size-desktop: 36px;
+    $tp-h3-size-desktop: 24px;
+    $tp-h4-size-desktop: 20px;
+    $tp-h5-size-desktop: 18px;
+    $tp-h6-size-desktop: 16px;
+
+
+/**
+ * Optional font sizes
+ */
+
+$tp-giga-size  : 96px;
+$tp-mega-size  : 72px;
+$tp-kilo-size  : 48px;
+$tp-milli-size : 13px;
+$tp-micro-size : 12px;
+
+/*------------------------------------*\
+    $tp-LINKS
+\*------------------------------------*/
+
+$tp-link-color              : $tp-color-primary;
+$tp-link-hover-color        : $tp-color-primary;
+$tp-link-visited-color      : $tp-link-color;
+$tp-link-underline          : false;
+$tp-link-underline-on-hover : true;
+
+
+/*------------------------------------*\
+    $tp-FORMS
+\*------------------------------------*/
+
+$tp-input-border-color  : $tp-base-ui-color;
+$tp-input-background    : #FAFAFA;
+$tp-input-padding       : 0.6em 1em; 
+$tp-input-padding-medium       : 0.8em 1em; 
+$tp-input-padding-large       : 1em 1em; 
+$tp-input-border-radius : $tp-base-radius;
+
+/*------------------------------------*\
+    $tp-BUTTONS
+\*------------------------------------*/
+
+$tp-button-padding            : 0.6em 1.2em;
+$tp-button-padding-desktop    : 0.6em 1.2em;
+$tp-button-border-radius      : $tp-base-radius;
+
+    /**
+     * Button default
+     */
+    
+    $tp-button-default-background : #EDEEF1;
+    $tp-button-default-color: #888;
+
+    /**
+     * Button Primary
+     */
+    
+    $tp-button-primary-background      : $tp-color-primary;
+    $tp-button-primary-border: $tp-color-primary;
+    
+    /**
+     * Button Secondary
+     */
+    
+    $tp-button-secondary-background: #9DA6AF;
+    $tp-button-secondary-border: #9DA6AF;
+
+    /**
+     * Button Light
+     */
+    
+    $tp-button-light-background: #fff;
+    $tp-button-light-color: lighten($tp-base-color, 10%);
+    $tp-button-light-border: darken($tp-base-ui-color,10%);
+
+    /**
+     * Button Dark
+     */
+    
+    $tp-button-dark-background: #323A45;
+    $tp-button-dark-border: #323A45;
+
+    /**
+     * Button Warning
+     */
+    
+    $tp-button-warning-background: $tp-color-warning;
+    $tp-button-warning-border: $tp-color-warning;
+
+
+    /**
+     * Button facebook
+     */
+    
+    $tp-button-facebook-background: #5970B3;
+    $tp-button-facebook-border: #5970B3;
+
+    /**
+     * Button google
+     */
+    
+    $tp-button-google-background: #EF2213;
+    $tp-button-google-border: #EF2213;
+
+
+
+$tp-button-inverted-background     : #000;
+$tp-button-inactive-background     : #ddd;

@@ -1,0 +1,253 @@
+/*------------------------------------*\
+	MIXINS
+\*------------------------------------*/
+
+/**
+ * Create a fully formed type style (sizing and vertical rhythm) by passing in a
+ * single value, e.g.:
+ *
+   `@include font-size(10px);`
+ *
+ * Thanks to @redclov3r for the `line-height` Sass:
+ * twitter.com/redclov3r/status/250301539321798657
+ */
+@mixin font-size($tp-font-size, $tp-line-height:true){
+    font-size:$tp-font-size;
+    font-size:($tp-font-size / $tp-base-font-size)*1rem;
+    @if $tp-line-height == true{
+        line-height:ceil($tp-font-size / $tp-base-line-height) * ($tp-base-line-height / $tp-font-size);
+    }
+}
+
+
+/**
+ * Font size mixin
+ */
+
+@mixin font-size-adapt($tp-mobile: false, $tp-tablet: false, $tp-desktop: false){
+
+		@if $tp-mobile{
+
+				@include font-size($tp-mobile, false);
+
+		}
+
+
+		@if $tp-tablet{
+				
+				@include media-query(tablet-desktop){
+						@include font-size($tp-tablet, false);
+				}
+		}
+
+		@if $tp-desktop{
+				
+				@include media-query(desktop){
+						@include font-size($tp-desktop, false);
+				}
+		}
+}
+
+
+/**
+ * Media Query Mixin
+ */
+
+@mixin media-query($tp-media-query){
+
+		@if $tp-media-query == "tablet-desktop"{
+
+				@media only screen and (min-width: $tp-tablet-breakpoint-start) { @content; }
+
+		}
+
+		@if $tp-media-query == tablet{
+
+				@media only screen and (min-width: $tp-tablet-breakpoint-start) 
+		and (max-width: $tp-desktop-breakpoint-start) { @content; }
+
+		}
+
+		@if $tp-media-query == desktop{
+
+				@media only screen and (min-width: $tp-desktop-breakpoint-start) { @content; }
+
+		}
+
+		@if $tp-media-query == phone{
+
+				@media only screen and (max-width: $tp-tablet-breakpoint-start) { @content; }
+
+		}
+
+		@if $tp-media-query == phone-desk{
+	
+			@media only screen and (max-width: $tp-desktop-breakpoint-start) { @content; }
+	
+		}
+
+		@if $tp-media-query == phone-landscape{
+
+				@media only screen and (min-width: $tp-phone-breakpoint-end) and (orientation: landscape){
+						@content;
+				}
+		}
+
+		@if $tp-media-query == tablet-landscape{
+
+				@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+						@content;
+				}
+		}
+
+		@if $tp-media-query == widescreen{
+				@media only screen and (min-width: $tp-widescreen-breakpoint-start){
+						@content;
+				}
+		}
+
+		@if $tp-media-query == retina{
+				@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5){
+						@content;
+				}
+		}
+
+		
+}
+
+
+/**
+ * Box Shadow Base
+ */
+
+@mixin base-box-shadow{
+
+	box-shadow: $tp-base-box-shadow;
+}
+
+
+/**
+ * Light Links
+ */
+
+@mixin links-light {
+
+	a{
+		@include link-colors(#fff, #fff, #fff)
+	}
+}
+
+/**
+ * Link Colors: Part of Compass
+ */
+
+@mixin link-colors($tp-normal, $tp-hover: false, $tp-active: false, $tp-visited: false, $tp-focus: false) {
+	color: $tp-normal;
+	@if $tp-visited {
+	&:visited {
+		color: $tp-visited; } }
+	@if $tp-focus {
+	&:focus {
+		color: $tp-focus; } }
+	@if $tp-hover {
+	&:hover {
+		color: $tp-hover; } }
+	@if $tp-active {
+	&:active {
+		color: $tp-active; } } }
+
+
+/**
+ * Focus Styles
+ */
+
+%focus-style{
+	box-shadow :  0 1px 2px rgba(0,0,0,0.075) inset, 
+									0 0 5px rgba(81,167,232,0.5);
+	border-color: #51A7E8;
+}
+
+
+/**
+ * Rem Units
+ * Converts properties to both REM and Pixel Values. Based on line-height
+ * @include rem(margin-bottom, 0.5)
+ * @include rem(padding, 1, 20px);
+ */
+
+@mixin rem($tp-property, $tp-multiplier: 1, $tp-unit: $tp-base-spacing-unit){
+
+	@if type-of($tp-multiplier) != "number"{
+
+		$tp-unit: $tp-multiplier;
+		$tp-multiplier: 1;
+	}
+
+	@include rem-full($tp-multiplier, $tp-property, $tp-unit);
+}
+
+
+/**
+ * Helper function for REM
+ * @include rem-full(padding, 10px 20px 10px 30px);
+ */
+
+@mixin rem-full($tp-multiplier, $tp-property, $tp-px-values) {
+	// Convert the baseline into rems
+	$tp-baseline-rem: $tp-base-font-size / 1rem * 1;
+	// Print the first line in pixel values
+
+	// If there is only one (numeric) value, return the property/value line for it.
+	@if type-of($tp-px-values) == "number" {
+		#{$tp-property}: $tp-px-values * $tp-multiplier;
+		#{$tp-property}: $tp-px-values / $tp-baseline-rem * $tp-multiplier; 
+	}
+	@else {
+		// Create an empty list that we can dump values into
+		$tp-rem-values: ();
+		$tp-pixel-values: ();
+		@each $tp-value in $tp-px-values {
+			// If the value is zero or not a number, return it
+			@if $tp-value == 0 or type-of( $tp-value ) != "number" {
+				$tp-rem-values: append($tp-rem-values, $tp-value); 
+				$tp-pixel-values: append($tp-pixel-values, $tp-value);
+			}
+			@else {
+				$tp-rem-values: append($tp-rem-values, $tp-value / $tp-baseline-rem * $tp-multiplier); 
+				$tp-pixel-values: append($tp-pixel-values, $tp-value * $tp-multiplier);
+			} 
+		}
+		// Return the property and its list of converted values
+		#{$tp-property}: $tp-pixel-values;
+		#{$tp-property}: $tp-rem-values; 
+	} 
+}
+
+
+/**
+ * Grids
+ */
+
+/**
+ * Calculates Percentage for each column
+ */
+
+@function gridCalc($tp-colNumber, $tp-grid-columns) {
+	@return percentage(($tp-colNumber / $tp-grid-columns));
+}
+
+/**
+ * Convert numbers to words
+ * 1 => 'one'
+ */
+
+@function convert-number-to-word($tp-num) {
+	$tp-count:1;
+	@each $tp-word in one,two,three,four,five,six,seven,eight,nine,ten,eleven,
+		twelve,thirteen,fourteen,fifteen,sixteen,seventeen,eighteen,nineteen,
+		twenty,twentyone,twentytwo,twentythree,twentyfour{
+		@if ($tp-count == $tp-num) { @return $tp-word; }
+		$tp-count: $tp-count + 1;
+	}
+	@return "invalid";
+}
