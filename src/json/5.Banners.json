@@ -4,7 +4,7 @@
         "slug": "1.BannerCheatSheet",
         "children": [
             {
-                "path": "patterns/5.NovaBanners/1.BannerCheatSheet/1.bannerCheat.md",
+                "path": "patterns/5.Banners/1.BannerCheatSheet/1.bannerCheat.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.bannerCheat.md",
                 "meta": {
@@ -18,7 +18,7 @@
         "slug": "2.BannerStyle1",
         "children": [
             {
-                "path": "patterns/5.NovaBanners/2.BannerStyle1/1.bannerS1.md",
+                "path": "patterns/5.Banners/2.BannerStyle1/1.bannerS1.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.bannerS1.md",
                 "meta": {
@@ -32,7 +32,7 @@
         "slug": "3.BannerStyle2",
         "children": [
             {
-                "path": "patterns/5.NovaBanners/3.BannerStyle2/1.bannerS2.md",
+                "path": "patterns/5.Banners/3.BannerStyle2/1.bannerS2.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.bannerS2.md",
                 "meta": {
@@ -46,7 +46,7 @@
         "slug": "4.BannerStyle3",
         "children": [
             {
-                "path": "patterns/5.NovaBanners/4.BannerStyle3/1.bannerS3.md",
+                "path": "patterns/5.Banners/4.BannerStyle3/1.bannerS3.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.bannerS3.md",
                 "meta": {
@@ -60,7 +60,7 @@
         "slug": "5.BannerStyle4",
         "children": [
             {
-                "path": "patterns/5.NovaBanners/5.BannerStyle4/1.bannerS4.md",
+                "path": "patterns/5.Banners/5.BannerStyle4/1.bannerS4.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.bannerS4.md",
                 "meta": {
@@ -74,7 +74,7 @@
         "slug": "6.BannerStyle5",
         "children": [
             {
-                "path": "patterns/5.NovaBanners/6.BannerStyle5/1.bannerS5.md",
+                "path": "patterns/5.Banners/6.BannerStyle5/1.bannerS5.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.bannerS5.md",
                 "meta": {
@@ -88,7 +88,7 @@
         "slug": "7.BannerStyle6",
         "children": [
             {
-                "path": "patterns/5.NovaBanners/7.BannerStyle6/1.bannerS6.md",
+                "path": "patterns/5.Banners/7.BannerStyle6/1.bannerS6.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.bannerS6.md",
                 "meta": {
@@ -102,7 +102,7 @@
         "slug": "8.BannerStyle7",
         "children": [
             {
-                "path": "patterns/5.NovaBanners/8.BannerStyle7/1.bannerS7.md",
+                "path": "patterns/5.Banners/8.BannerStyle7/1.bannerS7.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.bannerS7.md",
                 "meta": {

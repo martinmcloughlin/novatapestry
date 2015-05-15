@@ -4,12 +4,12 @@
         "slug": "Accordion",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Accordion/1.accordion.md",
+                "path": "patterns/3.Components/Accordion/1.accordion.md",
                 "name": "Accordion",
                 "slug": "1.accordion.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Accordion/2.accordion-alternate.md",
+                "path": "patterns/3.Components/Accordion/2.accordion-alternate.md",
                 "name": "Accordion bordered",
                 "slug": "2.accordion-alternate.md"
             }
@@ -20,17 +20,17 @@
         "slug": "Alerts",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Alerts/1.alert-success.md",
+                "path": "patterns/3.Components/Alerts/1.alert-success.md",
                 "name": "Alert success",
                 "slug": "1.alert-success.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Alerts/2.alert-error.md",
+                "path": "patterns/3.Components/Alerts/2.alert-error.md",
                 "name": "Alert error",
                 "slug": "2.alert-error.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Alerts/3.alert-info.md",
+                "path": "patterns/3.Components/Alerts/3.alert-info.md",
                 "name": "Alert info",
                 "slug": "3.alert-info.md"
             }
@@ -41,17 +41,17 @@
         "slug": "Autocomplete",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Autocomplete/1.autocomplete.md",
+                "path": "patterns/3.Components/Autocomplete/1.autocomplete.md",
                 "name": "Autocomplete field",
                 "slug": "1.autocomplete.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Autocomplete/autocomplete-categories.md",
+                "path": "patterns/3.Components/Autocomplete/autocomplete-categories.md",
                 "name": "Autocomplete with categories",
                 "slug": "autocomplete-categories.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Autocomplete/autocomplete-noresults.md",
+                "path": "patterns/3.Components/Autocomplete/autocomplete-noresults.md",
                 "name": "Autocomplete no-result",
                 "slug": "autocomplete-noresults.md"
             }
@@ -62,22 +62,22 @@
         "slug": "Date",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Date/date-display.md",
+                "path": "patterns/3.Components/Date/date-display.md",
                 "name": "Date display module",
                 "slug": "date-display.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Date/datepicker-inline.md",
+                "path": "patterns/3.Components/Date/datepicker-inline.md",
                 "name": "Inline datepicker",
                 "slug": "datepicker-inline.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Date/datepicker-start-end.md",
+                "path": "patterns/3.Components/Date/datepicker-start-end.md",
                 "name": "Datepicker with start/end dates",
                 "slug": "datepicker-start-end.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Date/datepicker.md",
+                "path": "patterns/3.Components/Date/datepicker.md",
                 "name": "Datepicker",
                 "slug": "datepicker.md"
             }
@@ -88,22 +88,22 @@
         "slug": "Dropdown",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Dropdown/dropdown-buttons.md",
+                "path": "patterns/3.Components/Dropdown/dropdown-buttons.md",
                 "name": "Dropdown buttons",
                 "slug": "dropdown-buttons.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Dropdown/dropdown-click.md",
+                "path": "patterns/3.Components/Dropdown/dropdown-click.md",
                 "name": "Dropdown on click",
                 "slug": "dropdown-click.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Dropdown/dropdown-hover.md",
+                "path": "patterns/3.Components/Dropdown/dropdown-hover.md",
                 "name": "Dropdown on hover",
                 "slug": "dropdown-hover.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Dropdown/dropdown-split.md",
+                "path": "patterns/3.Components/Dropdown/dropdown-split.md",
                 "name": "Dropdown split button",
                 "slug": "dropdown-split.md"
             }
@@ -114,12 +114,12 @@
         "slug": "Hero Content",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Hero Content/carousel.md",
+                "path": "patterns/3.Components/Hero Content/carousel.md",
                 "name": "Carousel",
                 "slug": "carousel.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Hero Content/hero.md",
+                "path": "patterns/3.Components/Hero Content/hero.md",
                 "name": "Hero content",
                 "slug": "hero.md"
             }
@@ -130,17 +130,17 @@
         "slug": "Modal",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Modal/modal-ajax.md",
+                "path": "patterns/3.Components/Modal/modal-ajax.md",
                 "name": "Modal Ajax",
                 "slug": "modal-ajax.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Modal/modal-image.md",
+                "path": "patterns/3.Components/Modal/modal-image.md",
                 "name": "Modal Image",
                 "slug": "modal-image.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Modal/modal-inline.md",
+                "path": "patterns/3.Components/Modal/modal-inline.md",
                 "name": "Modal Inline",
                 "slug": "modal-inline.md"
             }
@@ -151,17 +151,17 @@
         "slug": "Navigation",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Navigation/breadcrumbs.md",
+                "path": "patterns/3.Components/Navigation/breadcrumbs.md",
                 "name": "Breadcrumbs",
                 "slug": "breadcrumbs.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Navigation/navbar-dark.md",
+                "path": "patterns/3.Components/Navigation/navbar-dark.md",
                 "name": "Navigation dark",
                 "slug": "navbar-dark.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Navigation/navbar-light.md",
+                "path": "patterns/3.Components/Navigation/navbar-light.md",
                 "name": "Navigation light",
                 "slug": "navbar-light.md"
             }
@@ -172,7 +172,7 @@
         "slug": "Page",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Page/page.md",
+                "path": "patterns/3.Components/Page/page.md",
                 "name": "Page title and description",
                 "slug": "page.md"
             }
@@ -183,7 +183,7 @@
         "slug": "Panels",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Panels/panel.md",
+                "path": "patterns/3.Components/Panels/panel.md",
                 "name": "Panel",
                 "slug": "panel.md"
             }
@@ -194,7 +194,7 @@
         "slug": "Progress bar",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Progress bar/progress-bar.md",
+                "path": "patterns/3.Components/Progress bar/progress-bar.md",
                 "name": "Progress bar",
                 "slug": "progress-bar.md"
             }
@@ -205,17 +205,17 @@
         "slug": "Search",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Search/search-facets.md",
+                "path": "patterns/3.Components/Search/search-facets.md",
                 "name": "Search breadcrumbs",
                 "slug": "search-facets.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Search/search-listing.md",
+                "path": "patterns/3.Components/Search/search-listing.md",
                 "name": "Search listing",
                 "slug": "search-listing.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Search/search.md",
+                "path": "patterns/3.Components/Search/search.md",
                 "name": "Keyword search",
                 "slug": "search.md"
             }
@@ -226,12 +226,12 @@
         "slug": "Slider",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Slider/slider-range.md",
+                "path": "patterns/3.Components/Slider/slider-range.md",
                 "name": "Range slider",
                 "slug": "slider-range.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Slider/slider.md",
+                "path": "patterns/3.Components/Slider/slider.md",
                 "name": "Slider",
                 "slug": "slider.md"
             }
@@ -242,12 +242,12 @@
         "slug": "Tabs",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Tabs/tabs-simple.md",
+                "path": "patterns/3.Components/Tabs/tabs-simple.md",
                 "name": "Tabs",
                 "slug": "tabs-simple.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Tabs/tabs.md",
+                "path": "patterns/3.Components/Tabs/tabs.md",
                 "name": "Tabs box",
                 "slug": "tabs.md"
             }
@@ -258,17 +258,17 @@
         "slug": "Tags",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Tags/tags-pointer.md",
+                "path": "patterns/3.Components/Tags/tags-pointer.md",
                 "name": "Tags pointer",
                 "slug": "tags-pointer.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Tags/tags-soft.md",
+                "path": "patterns/3.Components/Tags/tags-soft.md",
                 "name": "Tags soft",
                 "slug": "tags-soft.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Tags/tags.md",
+                "path": "patterns/3.Components/Tags/tags.md",
                 "name": "Tags default",
                 "slug": "tags.md"
             }
@@ -279,7 +279,7 @@
         "slug": "Tooltip",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Tooltip/tooltip.md",
+                "path": "patterns/3.Components/Tooltip/tooltip.md",
                 "name": "Tooltip",
                 "slug": "tooltip.md"
             }
@@ -290,22 +290,22 @@
         "slug": "Wizard",
         "children": [
             {
-                "path": "patterns/3.NovaComponents/Wizard/wizard-line-inverted.md",
+                "path": "patterns/3.Components/Wizard/wizard-line-inverted.md",
                 "name": "Wizard line inverted",
                 "slug": "wizard-line-inverted.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Wizard/wizard-line.md",
+                "path": "patterns/3.Components/Wizard/wizard-line.md",
                 "name": "Wizard line",
                 "slug": "wizard-line.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Wizard/wizard-vertical.md",
+                "path": "patterns/3.Components/Wizard/wizard-vertical.md",
                 "name": "Wizard vertical",
                 "slug": "wizard-vertical.md"
             },
             {
-                "path": "patterns/3.NovaComponents/Wizard/wizard.md",
+                "path": "patterns/3.Components/Wizard/wizard.md",
                 "name": "Wizard",
                 "slug": "wizard.md"
             }

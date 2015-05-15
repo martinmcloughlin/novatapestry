@@ -4,7 +4,7 @@
         "slug": "1.CategoryGallery1",
         "children": [
             {
-                "path": "patterns/4.NovaModules/1.CategoryGallery1/1.catGall1.md",
+                "path": "patterns/4.Modules/1.CategoryGallery1/1.catGall1.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.catGall1.md",
                 "meta": {
@@ -18,7 +18,7 @@
         "slug": "2.ContentGallery1",
         "children": [
             {
-                "path": "patterns/4.NovaModules/2.ContentGallery1/1.contGall1.md",
+                "path": "patterns/4.Modules/2.ContentGallery1/1.contGall1.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.contGall1.md",
                 "meta": {
@@ -32,7 +32,7 @@
         "slug": "3.ContentGallery2",
         "children": [
             {
-                "path": "patterns/4.NovaModules/3.ContentGallery2/1.contGall2.md",
+                "path": "patterns/4.Modules/3.ContentGallery2/1.contGall2.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.contGall2.md",
                 "meta": {
@@ -46,7 +46,7 @@
         "slug": "4.ContentGallery3",
         "children": [
             {
-                "path": "patterns/4.NovaModules/4.ContentGallery3/1.contGall3.md",
+                "path": "patterns/4.Modules/4.ContentGallery3/1.contGall3.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.contGall3.md",
                 "meta": {
@@ -60,7 +60,7 @@
         "slug": "5.ProductTilesGridFormat",
         "children": [
             {
-                "path": "patterns/4.NovaModules/5.ProductTilesGridFormat/1.prodTileGrid.md",
+                "path": "patterns/4.Modules/5.ProductTilesGridFormat/1.prodTileGrid.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.prodTileGrid.md",
                 "meta": {
@@ -74,7 +74,7 @@
         "slug": "6.ProductTilesListFormat",
         "children": [
             {
-                "path": "patterns/4.NovaModules/6.ProductTilesListFormat/1.prodTileList.md",
+                "path": "patterns/4.Modules/6.ProductTilesListFormat/1.prodTileList.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.prodTileList.md",
                 "meta": {
@@ -88,7 +88,7 @@
         "slug": "7.ProductCarousel",
         "children": [
             {
-                "path": "patterns/4.NovaModules/7.ProductCarousel/1.prodCar.md",
+                "path": "patterns/4.Modules/7.ProductCarousel/1.prodCar.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.prodCar.md",
                 "meta": {

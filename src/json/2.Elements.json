@@ -4,47 +4,47 @@
         "slug": "1.Buttons",
         "children": [
             {
-                "path": "patterns/2.NovaElements/1.Buttons/buttons-dark.md",
+                "path": "patterns/2.Elements/1.Buttons/buttons-dark.md",
                 "name": "Buttons dark",
                 "slug": "buttons-dark.md"
             },
             {
-                "path": "patterns/2.NovaElements/1.Buttons/buttons-groups.md",
+                "path": "patterns/2.Elements/1.Buttons/buttons-groups.md",
                 "name": "Button groups",
                 "slug": "buttons-groups.md"
             },
             {
-                "path": "patterns/2.NovaElements/1.Buttons/buttons-icons.md",
+                "path": "patterns/2.Elements/1.Buttons/buttons-icons.md",
                 "name": "Buttons with icons",
                 "slug": "buttons-icons.md"
             },
             {
-                "path": "patterns/2.NovaElements/1.Buttons/buttons-light.md",
+                "path": "patterns/2.Elements/1.Buttons/buttons-light.md",
                 "name": "Buttons light",
                 "slug": "buttons-light.md"
             },
             {
-                "path": "patterns/2.NovaElements/1.Buttons/buttons-primary.md",
+                "path": "patterns/2.Elements/1.Buttons/buttons-primary.md",
                 "name": "Buttons primary",
                 "slug": "buttons-primary.md"
             },
             {
-                "path": "patterns/2.NovaElements/1.Buttons/buttons-secondary.md",
+                "path": "patterns/2.Elements/1.Buttons/buttons-secondary.md",
                 "name": "Buttons secondary",
                 "slug": "buttons-secondary.md"
             },
             {
-                "path": "patterns/2.NovaElements/1.Buttons/buttons-sizes.md",
+                "path": "patterns/2.Elements/1.Buttons/buttons-sizes.md",
                 "name": "Buttons sizes",
                 "slug": "buttons-sizes.md"
             },
             {
-                "path": "patterns/2.NovaElements/1.Buttons/buttons-variations.md",
+                "path": "patterns/2.Elements/1.Buttons/buttons-variations.md",
                 "name": "Button variations",
                 "slug": "buttons-variations.md"
             },
             {
-                "path": "patterns/2.NovaElements/1.Buttons/buttons-warning.md",
+                "path": "patterns/2.Elements/1.Buttons/buttons-warning.md",
                 "name": "Buttons warning",
                 "slug": "buttons-warning.md"
             }
@@ -59,7 +59,7 @@
                 "slug": "1.Logos",
                 "children": [
                     {
-                        "path": "patterns/2.NovaElements/2.LogosAndIconography/1.Logos/1.logos.md",
+                        "path": "patterns/2.Elements/2.LogosAndIconography/1.Logos/1.logos.md",
                         "name": "PLACEHOLDER",
                         "slug": "1.logos.md",
                         "meta": {
@@ -73,7 +73,7 @@
                 "slug": "2.Icons",
                 "children": [
                     {
-                        "path": "patterns/2.NovaElements/2.LogosAndIconography/2.Icons/icons.md",
+                        "path": "patterns/2.Elements/2.LogosAndIconography/2.Icons/icons.md",
                         "name": "Icons",
                         "slug": "icons.md"
                     }
@@ -86,7 +86,7 @@
         "slug": "3.Links",
         "children": [
             {
-                "path": "patterns/2.NovaElements/3.Links/links.md",
+                "path": "patterns/2.Elements/3.Links/links.md",
                 "name": "Links",
                 "slug": "links.md"
             }
@@ -97,12 +97,12 @@
         "slug": "4.Pagination",
         "children": [
             {
-                "path": "patterns/2.NovaElements/4.Pagination/pagination-variations.md",
+                "path": "patterns/2.Elements/4.Pagination/pagination-variations.md",
                 "name": "Pagination variations",
                 "slug": "pagination-variations.md"
             },
             {
-                "path": "patterns/2.NovaElements/4.Pagination/pagination.md",
+                "path": "patterns/2.Elements/4.Pagination/pagination.md",
                 "name": "Pagination",
                 "slug": "pagination.md"
             }
@@ -113,7 +113,7 @@
         "slug": "5.FormElements",
         "children": [
             {
-                "path": "patterns/2.NovaElements/5.FormElements/1.formElements.md",
+                "path": "patterns/2.Elements/5.FormElements/1.formElements.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.formElements.md",
                 "meta": {
@@ -127,32 +127,32 @@
         "slug": "6.Forms",
         "children": [
             {
-                "path": "patterns/2.NovaElements/6.Forms/1.fields.md",
+                "path": "patterns/2.Elements/6.Forms/1.fields.md",
                 "name": "Form fields",
                 "slug": "1.fields.md"
             },
             {
-                "path": "patterns/2.NovaElements/6.Forms/field-sizes.md",
+                "path": "patterns/2.Elements/6.Forms/field-sizes.md",
                 "name": "Field sizes",
                 "slug": "field-sizes.md"
             },
             {
-                "path": "patterns/2.NovaElements/6.Forms/form-error.md",
+                "path": "patterns/2.Elements/6.Forms/form-error.md",
                 "name": "Form error message",
                 "slug": "form-error.md"
             },
             {
-                "path": "patterns/2.NovaElements/6.Forms/form-horizontal.md",
+                "path": "patterns/2.Elements/6.Forms/form-horizontal.md",
                 "name": "Horizontal form",
                 "slug": "form-horizontal.md"
             },
             {
-                "path": "patterns/2.NovaElements/6.Forms/form-login.md",
+                "path": "patterns/2.Elements/6.Forms/form-login.md",
                 "name": "Login form",
                 "slug": "form-login.md"
             },
             {
-                "path": "patterns/2.NovaElements/6.Forms/form-subscribe.md",
+                "path": "patterns/2.Elements/6.Forms/form-subscribe.md",
                 "name": "Subscribe form",
                 "slug": "form-subscribe.md"
             }
@@ -163,32 +163,32 @@
         "slug": "7.Tables",
         "children": [
             {
-                "path": "patterns/2.NovaElements/7.Tables/table-bordered.md",
+                "path": "patterns/2.Elements/7.Tables/table-bordered.md",
                 "name": "Table bordered",
                 "slug": "table-bordered.md"
             },
             {
-                "path": "patterns/2.NovaElements/7.Tables/table-condensed.md",
+                "path": "patterns/2.Elements/7.Tables/table-condensed.md",
                 "name": "Table condensed",
                 "slug": "table-condensed.md"
             },
             {
-                "path": "patterns/2.NovaElements/7.Tables/table-default.md",
+                "path": "patterns/2.Elements/7.Tables/table-default.md",
                 "name": "Table",
                 "slug": "table-default.md"
             },
             {
-                "path": "patterns/2.NovaElements/7.Tables/table-responsive.md",
+                "path": "patterns/2.Elements/7.Tables/table-responsive.md",
                 "name": "Responsive table",
                 "slug": "table-responsive.md"
             },
             {
-                "path": "patterns/2.NovaElements/7.Tables/table-zebra.md",
+                "path": "patterns/2.Elements/7.Tables/table-zebra.md",
                 "name": "Zebra table",
                 "slug": "table-zebra.md"
             },
             {
-                "path": "patterns/2.NovaElements/7.Tables/table.md",
+                "path": "patterns/2.Elements/7.Tables/table.md",
                 "name": "Table",
                 "slug": "table.md"
             }
@@ -199,7 +199,7 @@
         "slug": "8.LinesAndDividers",
         "children": [
             {
-                "path": "patterns/2.NovaElements/8.LinesAndDividers/rules.md",
+                "path": "patterns/2.Elements/8.LinesAndDividers/rules.md",
                 "name": "Horizontal rule",
                 "slug": "rules.md"
             }
@@ -210,27 +210,27 @@
         "slug": "9.Media",
         "children": [
             {
-                "path": "patterns/2.NovaElements/9.Media/images-thumbnail.md",
+                "path": "patterns/2.Elements/9.Media/images-thumbnail.md",
                 "name": "Thumbnail Images",
                 "slug": "images-thumbnail.md"
             },
             {
-                "path": "patterns/2.NovaElements/9.Media/images.md",
+                "path": "patterns/2.Elements/9.Media/images.md",
                 "name": "Image",
                 "slug": "images.md"
             },
             {
-                "path": "patterns/2.NovaElements/9.Media/media-grid.md",
+                "path": "patterns/2.Elements/9.Media/media-grid.md",
                 "name": "Media grid",
                 "slug": "media-grid.md"
             },
             {
-                "path": "patterns/2.NovaElements/9.Media/media-listing.md",
+                "path": "patterns/2.Elements/9.Media/media-listing.md",
                 "name": "Media listing",
                 "slug": "media-listing.md"
             },
             {
-                "path": "patterns/2.NovaElements/9.Media/video.md",
+                "path": "patterns/2.Elements/9.Media/video.md",
                 "name": "Video",
                 "slug": "video.md"
             }

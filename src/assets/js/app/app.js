@@ -5,7 +5,7 @@
  */
 
 var version = '1.0.1',
-    lastUpdated = '14 May 2015',
+    lastUpdated = '15 May 2015',
     disqus_shortname = '';//'novastyleguide';
 
 
@@ -77,7 +77,7 @@ angular.module('tapestry', [
 
             }
             
-            else if (value.slug == "responsivegrids") {
+            else if ((value.slug == "grids") || (value.slug == "responsivegrids") ){
     
                 $routeProvider.when('/' + value.slug + '/:slug', {
                     templateUrl: 'assets/js/templates/listing_no-sub.html',

@@ -4,7 +4,7 @@
         "slug": "1.Headers",
         "children": [
             {
-                "path": "patterns/6.NovaGlobals/1.Headers/1.header.md",
+                "path": "patterns/6.Globals/1.Headers/1.header.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.header.md",
                 "meta": {
@@ -18,7 +18,7 @@
         "slug": "2.Footers",
         "children": [
             {
-                "path": "patterns/6.NovaGlobals/2.Footers/1.footer.md",
+                "path": "patterns/6.Globals/2.Footers/1.footer.md",
                 "name": "PLACEHOLDER",
                 "slug": "1.footer.md",
                 "meta": {
