@@ -41,7 +41,7 @@ html.tp[ng-app]{
  */
 
 .tapestry-header{
-    background: $tp-color-dark;
+    background: #000;
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -305,7 +305,7 @@ html.tp[ng-app]{
 
     a:hover{
         
-        color: $tp-base-color;
+        color: $tp-color-primary;
         
         
     }
@@ -369,7 +369,8 @@ $tp-menu-spacing: 20px;
     }
     font-size: 16px;
     line-height: 1.6;
-    //border-right: 1px $tp-base-ui-color solid;    
+    //border-right: 1px $tp-base-ui-color solid;
+    box-shadow: 0px 0 6px 1px rgba(0,0,0,0.1);
 
 
     .menu__opened &{
@@ -523,7 +524,7 @@ $tp-menu-spacing: 20px;
     @include media-query(phone-desk){
         margin: 0;
     }
-    background: $tp-color-primary;
+    background: $tp-color-other;
     text-align: center;
     
 
@@ -537,7 +538,7 @@ $tp-menu-spacing: 20px;
     }
 
     h1, .text--lead{
-        
+        color: white;
         font-family: $tp-fontfamily;
     }
 

@@ -1869,7 +1869,7 @@ html.tp[ng-app] {
  * Header
  */
 .tapestry-header {
-  background: #1F253D;
+  background: #000;
   color: #fff;
   text-align: center;
   padding: 1em;
@@ -2022,7 +2022,7 @@ html.tp[ng-app] {
 
 .autocomplete-suggestions.tp strong {
   font-weight: normal;
-  color: #1ABC9C;
+  color: #ff6600;
   font-weight: 600; }
 
 /**
@@ -2062,9 +2062,9 @@ html.tp[ng-app] {
     padding: 5px 0;
     display: block; }
   .tapestry-menu-side a:hover {
-    color: #444; }
+    color: #ff6600; }
   .tapestry-menu-side .active, .tapestry-menu-side .active:hover, .tapestry-menu-side .active > a {
-    color: #1ABC9C; }
+    color: #ff6600; }
   @media only screen and (min-width: 600px) {
     .tapestry-menu-side {
       display: block;
@@ -2105,6 +2105,7 @@ html.tp[ng-app] {
   font-size: 1.14286rem;
   font-size: 16px;
   line-height: 1.6;
+  box-shadow: 0px 0 6px 1px rgba(0, 0, 0, 0.1);
   /* heading */
   /* UL */ }
   @media only screen and (max-width: 960px) {
@@ -2144,12 +2145,12 @@ html.tp[ng-app] {
     margin: 0; }
   .tapestry-menu a {
     display: block;
-    color: #1ABC9C;
+    color: #ff6600;
     padding: 3px 20px;
     text-decoration: none; }
   .tapestry-menu a:hover, .tapestry-menu .active > a {
     background: #d9dcde;
-    background: #1ABC9C;
+    background: #ff6600;
     color: #fff; }
 
 /* Heading */
@@ -2219,7 +2220,7 @@ html.tp[ng-app] {
   color: #fff;
   padding: 30px 0 30px 0;
   margin: 0 0 0 250px;
-  background: #1ABC9C;
+  background: #46a546;
   text-align: center; }
   @media only screen and (max-width: 960px) {
     .ui-module-hero-tapestry {
@@ -2229,6 +2230,7 @@ html.tp[ng-app] {
       width: 800px;
       margin: 0 auto; } }
   .ui-module-hero-tapestry h1, .ui-module-hero-tapestry .text--lead {
+    color: white;
     font-family: 'Open Sans', Helvetica, Arial; }
   .ui-module-hero-tapestry .text--lead {
     font-size: 24px;
@@ -2408,7 +2410,7 @@ code.tp {
   user-select: none; }
 
 .toggle-code.tp.active {
-  color: #1ABC9C; }
+  color: #ff6600; }
 
 /**
      * Description

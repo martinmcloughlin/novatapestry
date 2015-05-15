@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Headers",
+        "slug": "1.Headers",
+        "children": [
+            {
+                "path": "patterns/6.NovaGlobals/1.Headers/1.header.md",
+                "name": "PLACEHOLDER",
+                "slug": "1.header.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "Footers",
+        "slug": "2.Footers",
+        "children": [
+            {
+                "path": "patterns/6.NovaGlobals/2.Footers/1.footer.md",
+                "name": "PLACEHOLDER",
+                "slug": "1.footer.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    }
+]

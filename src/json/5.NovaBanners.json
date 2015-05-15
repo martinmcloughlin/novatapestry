@@ -1,0 +1,114 @@
+[
+    {
+        "name": "BannerCheatSheet",
+        "slug": "1.BannerCheatSheet",
+        "children": [
+            {
+                "path": "patterns/5.NovaBanners/1.BannerCheatSheet/1.bannerCheat.md",
+                "name": "PLACEHOLDER",
+                "slug": "1.bannerCheat.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "BannerStyle1",
+        "slug": "2.BannerStyle1",
+        "children": [
+            {
+                "path": "patterns/5.NovaBanners/2.BannerStyle1/1.bannerS1.md",
+                "name": "PLACEHOLDER",
+                "slug": "1.bannerS1.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "BannerStyle2",
+        "slug": "3.BannerStyle2",
+        "children": [
+            {
+                "path": "patterns/5.NovaBanners/3.BannerStyle2/1.bannerS2.md",
+                "name": "PLACEHOLDER",
+                "slug": "1.bannerS2.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "BannerStyle3",
+        "slug": "4.BannerStyle3",
+        "children": [
+            {
+                "path": "patterns/5.NovaBanners/4.BannerStyle3/1.bannerS3.md",
+                "name": "PLACEHOLDER",
+                "slug": "1.bannerS3.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "BannerStyle4",
+        "slug": "5.BannerStyle4",
+        "children": [
+            {
+                "path": "patterns/5.NovaBanners/5.BannerStyle4/1.bannerS4.md",
+                "name": "PLACEHOLDER",
+                "slug": "1.bannerS4.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "BannerStyle5",
+        "slug": "6.BannerStyle5",
+        "children": [
+            {
+                "path": "patterns/5.NovaBanners/6.BannerStyle5/1.bannerS5.md",
+                "name": "PLACEHOLDER",
+                "slug": "1.bannerS5.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "BannerStyle6",
+        "slug": "7.BannerStyle6",
+        "children": [
+            {
+                "path": "patterns/5.NovaBanners/7.BannerStyle6/1.bannerS6.md",
+                "name": "PLACEHOLDER",
+                "slug": "1.bannerS6.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "BannerStyle7",
+        "slug": "8.BannerStyle7",
+        "children": [
+            {
+                "path": "patterns/5.NovaBanners/8.BannerStyle7/1.bannerS7.md",
+                "name": "PLACEHOLDER",
+                "slug": "1.bannerS7.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    }
+]

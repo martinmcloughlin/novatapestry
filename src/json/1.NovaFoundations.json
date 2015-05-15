@@ -1,0 +1,169 @@
+[
+    {
+        "name": "Colors",
+        "slug": "1.Colors",
+        "children": [
+            {
+                "path": "patterns/1.NovaFoundations/1.Colors/1.primary-colours.md",
+                "name": "Primary Colours",
+                "slug": "1.primary-colours.md",
+                "meta": {
+                    "hidecode": true
+                }
+            },
+            {
+                "path": "patterns/1.NovaFoundations/1.Colors/2.secondary-colours.md",
+                "name": "Secondary Colours",
+                "slug": "2.secondary-colours.md",
+                "meta": {
+                    "hidecode": true
+                }
+            },
+            {
+                "path": "patterns/1.NovaFoundations/1.Colors/99.full-colour-palette.md",
+                "name": "Full color palette",
+                "slug": "99.full-colour-palette.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "Typography",
+        "slug": "2.Typography",
+        "children": [
+            {
+                "name": "Base",
+                "slug": "1.Base",
+                "children": [
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/1.Base/0.unstyled.md",
+                        "name": "Default Unstyled",
+                        "slug": "0.unstyled.md"
+                    },
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/1.Base/1.body-copy.md",
+                        "name": "Body copy",
+                        "slug": "1.body-copy.md"
+                    },
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/1.Base/2.headings.md",
+                        "name": "Headings",
+                        "slug": "2.headings.md"
+                    },
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/1.Base/3.text-alignment.md",
+                        "name": "Text alignment",
+                        "slug": "3.text-alignment.md"
+                    },
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/1.Base/4.blockquote.md",
+                        "name": "Blockquote",
+                        "slug": "4.blockquote.md"
+                    },
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/1.Base/5.lead-copy.md",
+                        "name": "Lead copy",
+                        "slug": "5.lead-copy.md"
+                    },
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/1.Base/6.summary-copy.md",
+                        "name": "Summary copy",
+                        "slug": "6.summary-copy.md"
+                    }
+                ]
+            },
+            {
+                "name": "Emphasis",
+                "slug": "2.Emphasis",
+                "children": [
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/2.Emphasis/bold-text.md",
+                        "name": "Bold text",
+                        "slug": "bold-text.md"
+                    },
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/2.Emphasis/italics-text.md",
+                        "name": "Italics",
+                        "slug": "italics-text.md"
+                    },
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/2.Emphasis/small-text.md",
+                        "name": "Small",
+                        "slug": "small-text.md"
+                    },
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/2.Emphasis/text-sizes.md",
+                        "name": "Text size variations",
+                        "slug": "text-sizes.md"
+                    }
+                ]
+            },
+            {
+                "name": "Lists",
+                "slug": "3.Lists",
+                "children": [
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/3.Lists/list-block.md",
+                        "name": "Block list",
+                        "slug": "list-block.md"
+                    },
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/3.Lists/list-definition.md",
+                        "name": "Definition list",
+                        "slug": "list-definition.md"
+                    },
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/3.Lists/list-inline.md",
+                        "name": "Inline list",
+                        "slug": "list-inline.md"
+                    },
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/3.Lists/list-ordered.md",
+                        "name": "Ordered list",
+                        "slug": "list-ordered.md"
+                    },
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/3.Lists/list-unordered.md",
+                        "name": "Unordered list",
+                        "slug": "list-unordered.md"
+                    },
+                    {
+                        "path": "patterns/1.NovaFoundations/2.Typography/3.Lists/list-unstyled.md",
+                        "name": "Unstyled list",
+                        "slug": "list-unstyled.md"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TintModifiers",
+        "slug": "3.TintModifiers",
+        "children": [
+            {
+                "path": "patterns/1.NovaFoundations/3.TintModifiers/1.modifiers.md",
+                "name": "PLACEHOLDER",
+                "slug": "1.modifiers.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "SpacingModifiers",
+        "slug": "4.SpacingModifiers",
+        "children": [
+            {
+                "path": "patterns/1.NovaFoundations/4.SpacingModifiers/1.modifiers.md",
+                "name": "PLACEHOLDER",
+                "slug": "1.modifiers.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    }
+]

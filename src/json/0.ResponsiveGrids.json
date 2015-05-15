@@ -1,0 +1,26 @@
+[
+    {
+        "path": "patterns/0.ResponsiveGrids/grid-desktop.md",
+        "name": "Grid desktop",
+        "slug": "grid-desktop.md",
+        "meta": {
+            "hidecode": true
+        }
+    },
+    {
+        "path": "patterns/0.ResponsiveGrids/grid-mobile.md",
+        "name": "Grid mobile",
+        "slug": "grid-mobile.md",
+        "meta": {
+            "hidecode": true
+        }
+    },
+    {
+        "path": "patterns/0.ResponsiveGrids/grid-tablet.md",
+        "name": "Grid tablet",
+        "slug": "grid-tablet.md",
+        "meta": {
+            "hidecode": true
+        }
+    }
+]
