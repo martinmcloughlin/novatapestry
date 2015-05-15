@@ -2145,7 +2145,7 @@ html.tp[ng-app] {
     margin: 0; }
   .tapestry-menu a {
     display: block;
-    color: #ff6600;
+    color: #999999;
     padding: 3px 20px;
     text-decoration: none; }
   .tapestry-menu a:hover, .tapestry-menu .active > a {
@@ -2454,7 +2454,10 @@ code.tp {
   .palette.tp h3 {
     color: #333;
     font-size: 14px;
-    font-weight: 600; }
+    font-weight: 600;
+    margin-bottom: 0; }
+  .palette.tp p {
+    line-height: 33px; }
 
 /**
  * Row demo

@@ -411,7 +411,7 @@ $tp-menu-spacing: 20px;
 
     a{
         display: block;
-        color: $tp-color-primary;
+        color: $tp-color-grey9;
         padding: 3px $tp-menu-spacing;
         text-decoration: none;
     }
@@ -839,6 +839,10 @@ $tp-menu-spacing: 20px;
         color: #333;
         font-size: 14px;
         font-weight: 600;
+        margin-bottom: 0;
+    }
+    p {
+        line-height: 33px;
     }
 }
 

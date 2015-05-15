@@ -51,37 +51,6 @@
         ]
     },
     {
-        "name": "LogosAndIconography",
-        "slug": "2.LogosAndIconography",
-        "children": [
-            {
-                "name": "Logos",
-                "slug": "1.Logos",
-                "children": [
-                    {
-                        "path": "patterns/2.Elements/2.LogosAndIconography/1.Logos/1.logos.md",
-                        "name": "PLACEHOLDER",
-                        "slug": "1.logos.md",
-                        "meta": {
-                            "hidecode": true
-                        }
-                    }
-                ]
-            },
-            {
-                "name": "Icons",
-                "slug": "2.Icons",
-                "children": [
-                    {
-                        "path": "patterns/2.Elements/2.LogosAndIconography/2.Icons/icons.md",
-                        "name": "Icons",
-                        "slug": "icons.md"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Links",
         "slug": "3.Links",
         "children": [

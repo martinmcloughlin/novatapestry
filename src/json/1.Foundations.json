@@ -1,10 +1,10 @@
 [
     {
-        "name": "Colors",
-        "slug": "1.Colors",
+        "name": "Colours",
+        "slug": "1.Colours",
         "children": [
             {
-                "path": "patterns/1.Foundations/1.Colors/1.primary-colours.md",
+                "path": "patterns/1.Foundations/1.Colours/1.primary-colours.md",
                 "name": "Primary Colours",
                 "slug": "1.primary-colours.md",
                 "meta": {
@@ -12,15 +12,23 @@
                 }
             },
             {
-                "path": "patterns/1.Foundations/1.Colors/2.secondary-colours.md",
-                "name": "Secondary Colours",
-                "slug": "2.secondary-colours.md",
+                "path": "patterns/1.Foundations/1.Colours/2.primary-greys.md",
+                "name": "Primary Greys",
+                "slug": "2.primary-greys.md",
                 "meta": {
                     "hidecode": true
                 }
             },
             {
-                "path": "patterns/1.Foundations/1.Colors/99.full-colour-palette.md",
+                "path": "patterns/1.Foundations/1.Colours/3.secondary-colours.md",
+                "name": "Secondary Colours",
+                "slug": "3.secondary-colours.md",
+                "meta": {
+                    "hidecode": true
+                }
+            },
+            {
+                "path": "patterns/1.Foundations/1.Colours/99.full-colour-palette.md",
                 "name": "Full color palette",
                 "slug": "99.full-colour-palette.md",
                 "meta": {
@@ -75,28 +83,23 @@
                 ]
             },
             {
-                "name": "Emphasis",
-                "slug": "2.Emphasis",
+                "name": "Overrides",
+                "slug": "2.Overrides",
                 "children": [
                     {
-                        "path": "patterns/1.Foundations/2.Typography/2.Emphasis/bold-text.md",
+                        "path": "patterns/1.Foundations/2.Typography/2.Overrides/bold-text.md",
                         "name": "Bold text",
                         "slug": "bold-text.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/2.Typography/2.Emphasis/italics-text.md",
+                        "path": "patterns/1.Foundations/2.Typography/2.Overrides/italics-text.md",
                         "name": "Italics",
                         "slug": "italics-text.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/2.Typography/2.Emphasis/small-text.md",
+                        "path": "patterns/1.Foundations/2.Typography/2.Overrides/small-text.md",
                         "name": "Small",
                         "slug": "small-text.md"
-                    },
-                    {
-                        "path": "patterns/1.Foundations/2.Typography/2.Emphasis/text-sizes.md",
-                        "name": "Text size variations",
-                        "slug": "text-sizes.md"
                     }
                 ]
             },
@@ -135,6 +138,66 @@
                         "slug": "list-unstyled.md"
                     }
                 ]
+            },
+            {
+                "path": "patterns/1.Foundations/2.Typography/text-size-p01.md",
+                "name": "P1",
+                "slug": "text-size-p01.md"
+            },
+            {
+                "path": "patterns/1.Foundations/2.Typography/text-size-p02.md",
+                "name": "P2",
+                "slug": "text-size-p02.md"
+            },
+            {
+                "path": "patterns/1.Foundations/2.Typography/text-size-p03.md",
+                "name": "P3",
+                "slug": "text-size-p03.md"
+            },
+            {
+                "path": "patterns/1.Foundations/2.Typography/text-size-p04.md",
+                "name": "P4",
+                "slug": "text-size-p04.md"
+            },
+            {
+                "path": "patterns/1.Foundations/2.Typography/text-size-p05.md",
+                "name": "P5",
+                "slug": "text-size-p05.md"
+            },
+            {
+                "path": "patterns/1.Foundations/2.Typography/text-size-p06.md",
+                "name": "P6",
+                "slug": "text-size-p06.md"
+            },
+            {
+                "path": "patterns/1.Foundations/2.Typography/text-size-p07.md",
+                "name": "P7",
+                "slug": "text-size-p07.md"
+            },
+            {
+                "path": "patterns/1.Foundations/2.Typography/text-size-p08.md",
+                "name": "P8",
+                "slug": "text-size-p08.md"
+            },
+            {
+                "path": "patterns/1.Foundations/2.Typography/text-size-p09.md",
+                "name": "P9",
+                "slug": "text-size-p09.md"
+            },
+            {
+                "path": "patterns/1.Foundations/2.Typography/text-size-p10.md",
+                "name": "P10",
+                "slug": "text-size-p10.md"
+            },
+            {
+                "path": "patterns/1.Foundations/2.Typography/text-size-p11.md",
+                "name": "P11",
+                "slug": "text-size-p11.md"
+            },
+            {
+                "path": "patterns/1.Foundations/2.Typography/text-size-p12.md",
+                "name": "P12",
+                "slug": "text-size-p12.md"
             }
         ]
     },
@@ -163,6 +226,68 @@
                 "meta": {
                     "hidecode": true
                 }
+            }
+        ]
+    },
+    {
+        "name": "Logos",
+        "slug": "5.Logos",
+        "children": [
+            {
+                "name": "Logos",
+                "slug": "1.Logos",
+                "children": [
+                    {
+                        "path": "patterns/1.Foundations/5.Logos/1.Logos/1.logos.md",
+                        "name": "PLACEHOLDER",
+                        "slug": "1.logos.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Icons",
+                "slug": "2.Icons",
+                "children": [
+                    {
+                        "path": "patterns/1.Foundations/5.Logos/2.Icons/icons.md",
+                        "name": "Icons",
+                        "slug": "icons.md"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Iconography",
+        "slug": "6.Iconography",
+        "children": [
+            {
+                "name": "Logos",
+                "slug": "1.Logos",
+                "children": [
+                    {
+                        "path": "patterns/1.Foundations/6.Iconography/1.Logos/1.logos.md",
+                        "name": "PLACEHOLDER",
+                        "slug": "1.logos.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Icons",
+                "slug": "2.Icons",
+                "children": [
+                    {
+                        "path": "patterns/1.Foundations/6.Iconography/2.Icons/icons.md",
+                        "name": "Icons",
+                        "slug": "icons.md"
+                    }
+                ]
             }
         ]
     }
