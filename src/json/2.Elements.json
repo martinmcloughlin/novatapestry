@@ -124,6 +124,11 @@
         "slug": "7.Tables",
         "children": [
             {
+                "path": "patterns/2.Elements/7.Tables/1.table-default.md",
+                "name": "Table",
+                "slug": "1.table-default.md"
+            },
+            {
                 "path": "patterns/2.Elements/7.Tables/table-bordered.md",
                 "name": "Table bordered",
                 "slug": "table-bordered.md"
@@ -134,11 +139,6 @@
                 "slug": "table-condensed.md"
             },
             {
-                "path": "patterns/2.Elements/7.Tables/table-default.md",
-                "name": "Table",
-                "slug": "table-default.md"
-            },
-            {
                 "path": "patterns/2.Elements/7.Tables/table-responsive.md",
                 "name": "Responsive table",
                 "slug": "table-responsive.md"
@@ -147,11 +147,6 @@
                 "path": "patterns/2.Elements/7.Tables/table-zebra.md",
                 "name": "Zebra table",
                 "slug": "table-zebra.md"
-            },
-            {
-                "path": "patterns/2.Elements/7.Tables/table.md",
-                "name": "Table",
-                "slug": "table.md"
             }
         ]
     },

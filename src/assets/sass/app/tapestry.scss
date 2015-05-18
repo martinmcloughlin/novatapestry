@@ -823,12 +823,12 @@ $tp-menu-spacing: 20px;
     
     .color{
         //border-radius: 5px 5px 0 0;
-        height: 80px;
-        padding-top: 1.5em;
+        height: 20px;
+        padding-top: 0;
 
-        @include media-query(tablet-desktop){
-            height: 120px;
-        }
+        //@include media-query(tablet-desktop){
+        //    height: 120px;
+        //}
     }
     &.tint .color{
         height : 20px;

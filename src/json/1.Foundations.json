@@ -34,62 +34,101 @@
         "slug": "3.Typography",
         "children": [
             {
-                "name": "Base",
-                "slug": "1.Base",
-                "children": [
-                    {
-                        "path": "patterns/1.Foundations/3.Typography/1.Base/0.unstyled.md",
-                        "name": "Default Unstyled",
-                        "slug": "0.unstyled.md"
-                    },
-                    {
-                        "path": "patterns/1.Foundations/3.Typography/1.Base/1.body-copy.md",
-                        "name": "Body copy",
-                        "slug": "1.body-copy.md"
-                    },
-                    {
-                        "path": "patterns/1.Foundations/3.Typography/1.Base/2.headings.md",
-                        "name": "Headings",
-                        "slug": "2.headings.md"
-                    },
-                    {
-                        "path": "patterns/1.Foundations/3.Typography/1.Base/3.text-alignment.md",
-                        "name": "Text alignment",
-                        "slug": "3.text-alignment.md"
-                    },
-                    {
-                        "path": "patterns/1.Foundations/3.Typography/1.Base/4.blockquote.md",
-                        "name": "Blockquote",
-                        "slug": "4.blockquote.md"
-                    },
-                    {
-                        "path": "patterns/1.Foundations/3.Typography/1.Base/5.lead-copy.md",
-                        "name": "Lead copy",
-                        "slug": "5.lead-copy.md"
-                    },
-                    {
-                        "path": "patterns/1.Foundations/3.Typography/1.Base/6.summary-copy.md",
-                        "name": "Summary copy",
-                        "slug": "6.summary-copy.md"
-                    }
-                ]
+                "path": "patterns/1.Foundations/3.Typography/0.unstyled.md",
+                "name": "Default Unstyled",
+                "slug": "0.unstyled.md"
             },
             {
-                "name": "Overrides",
-                "slug": "2.Overrides",
+                "path": "patterns/1.Foundations/3.Typography/1.headings.md",
+                "name": "Headings",
+                "slug": "1.headings.md"
+            },
+            {
+                "path": "patterns/1.Foundations/3.Typography/2.body-copy.md",
+                "name": "Base paragraph",
+                "slug": "2.body-copy.md"
+            },
+            {
+                "path": "patterns/1.Foundations/3.Typography/3.text-alignment.md",
+                "name": "Text alignment",
+                "slug": "3.text-alignment.md"
+            },
+            {
+                "path": "patterns/1.Foundations/3.Typography/3.text-size-p01.md",
+                "name": "P1",
+                "slug": "3.text-size-p01.md"
+            },
+            {
+                "path": "patterns/1.Foundations/3.Typography/3.text-size-p02.md",
+                "name": "P2",
+                "slug": "3.text-size-p02.md"
+            },
+            {
+                "path": "patterns/1.Foundations/3.Typography/3.text-size-p03.md",
+                "name": "P3",
+                "slug": "3.text-size-p03.md"
+            },
+            {
+                "path": "patterns/1.Foundations/3.Typography/3.text-size-p04.md",
+                "name": "P4",
+                "slug": "3.text-size-p04.md"
+            },
+            {
+                "path": "patterns/1.Foundations/3.Typography/3.text-size-p05.md",
+                "name": "P5",
+                "slug": "3.text-size-p05.md"
+            },
+            {
+                "path": "patterns/1.Foundations/3.Typography/3.text-size-p06.md",
+                "name": "P6",
+                "slug": "3.text-size-p06.md"
+            },
+            {
+                "path": "patterns/1.Foundations/3.Typography/3.text-size-p07.md",
+                "name": "P7",
+                "slug": "3.text-size-p07.md"
+            },
+            {
+                "path": "patterns/1.Foundations/3.Typography/3.text-size-p08.md",
+                "name": "P8",
+                "slug": "3.text-size-p08.md"
+            },
+            {
+                "path": "patterns/1.Foundations/3.Typography/3.text-size-p09.md",
+                "name": "P9",
+                "slug": "3.text-size-p09.md"
+            },
+            {
+                "path": "patterns/1.Foundations/3.Typography/3.text-size-p10.md",
+                "name": "P10",
+                "slug": "3.text-size-p10.md"
+            },
+            {
+                "path": "patterns/1.Foundations/3.Typography/3.text-size-p11.md",
+                "name": "P11",
+                "slug": "3.text-size-p11.md"
+            },
+            {
+                "path": "patterns/1.Foundations/3.Typography/3.text-size-p12.md",
+                "name": "P12",
+                "slug": "3.text-size-p12.md"
+            },
+            {
+                "name": "Base-Formatting",
+                "slug": "4.Base-Formatting",
                 "children": [
                     {
-                        "path": "patterns/1.Foundations/3.Typography/2.Overrides/bold-text.md",
+                        "path": "patterns/1.Foundations/3.Typography/4.Base-Formatting/bold-text.md",
                         "name": "Bold text",
                         "slug": "bold-text.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/3.Typography/2.Overrides/italics-text.md",
+                        "path": "patterns/1.Foundations/3.Typography/4.Base-Formatting/italics-text.md",
                         "name": "Italics",
                         "slug": "italics-text.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/3.Typography/2.Overrides/small-text.md",
+                        "path": "patterns/1.Foundations/3.Typography/4.Base-Formatting/small-text.md",
                         "name": "Small",
                         "slug": "small-text.md"
                     }
@@ -97,99 +136,39 @@
             },
             {
                 "name": "Lists",
-                "slug": "3.Lists",
+                "slug": "9.Lists",
                 "children": [
                     {
-                        "path": "patterns/1.Foundations/3.Typography/3.Lists/list-block.md",
+                        "path": "patterns/1.Foundations/3.Typography/9.Lists/list-block.md",
                         "name": "Block list",
                         "slug": "list-block.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/3.Typography/3.Lists/list-definition.md",
+                        "path": "patterns/1.Foundations/3.Typography/9.Lists/list-definition.md",
                         "name": "Definition list",
                         "slug": "list-definition.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/3.Typography/3.Lists/list-inline.md",
+                        "path": "patterns/1.Foundations/3.Typography/9.Lists/list-inline.md",
                         "name": "Inline list",
                         "slug": "list-inline.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/3.Typography/3.Lists/list-ordered.md",
+                        "path": "patterns/1.Foundations/3.Typography/9.Lists/list-ordered.md",
                         "name": "Ordered list",
                         "slug": "list-ordered.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/3.Typography/3.Lists/list-unordered.md",
+                        "path": "patterns/1.Foundations/3.Typography/9.Lists/list-unordered.md",
                         "name": "Unordered list",
                         "slug": "list-unordered.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/3.Typography/3.Lists/list-unstyled.md",
+                        "path": "patterns/1.Foundations/3.Typography/9.Lists/list-unstyled.md",
                         "name": "Unstyled list",
                         "slug": "list-unstyled.md"
                     }
                 ]
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/text-size-p01.md",
-                "name": "P1",
-                "slug": "text-size-p01.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/text-size-p02.md",
-                "name": "P2",
-                "slug": "text-size-p02.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/text-size-p03.md",
-                "name": "P3",
-                "slug": "text-size-p03.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/text-size-p04.md",
-                "name": "P4",
-                "slug": "text-size-p04.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/text-size-p05.md",
-                "name": "P5",
-                "slug": "text-size-p05.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/text-size-p06.md",
-                "name": "P6",
-                "slug": "text-size-p06.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/text-size-p07.md",
-                "name": "P7",
-                "slug": "text-size-p07.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/text-size-p08.md",
-                "name": "P8",
-                "slug": "text-size-p08.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/text-size-p09.md",
-                "name": "P9",
-                "slug": "text-size-p09.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/text-size-p10.md",
-                "name": "P10",
-                "slug": "text-size-p10.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/text-size-p11.md",
-                "name": "P11",
-                "slug": "text-size-p11.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/text-size-p12.md",
-                "name": "P12",
-                "slug": "text-size-p12.md"
             }
         ]
     },
@@ -212,13 +191,21 @@
         "slug": "5.Logos",
         "children": [
             {
-                "name": "Logos",
-                "slug": "1.Logos",
+                "name": "Brand-Logos",
+                "slug": "1.Brand-Logos",
                 "children": [
                     {
-                        "path": "patterns/1.Foundations/5.Logos/1.Logos/1.logos.md",
-                        "name": "PLACEHOLDER",
-                        "slug": "1.logos.md",
+                        "path": "patterns/1.Foundations/5.Logos/1.Brand-Logos/1.Brand.md",
+                        "name": "Brand Logo Positive",
+                        "slug": "1.Brand.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    },
+                    {
+                        "path": "patterns/1.Foundations/5.Logos/1.Brand-Logos/2.Brand negative.md",
+                        "name": "Brand Logo Negative",
+                        "slug": "2.Brand negative.md",
                         "meta": {
                             "hidecode": true
                         }
@@ -226,13 +213,24 @@
                 ]
             },
             {
-                "name": "Icons",
-                "slug": "2.Icons",
+                "name": "Other-Logos",
+                "slug": "1.Other-Logos",
                 "children": [
                     {
-                        "path": "patterns/1.Foundations/5.Logos/2.Icons/icons.md",
-                        "name": "Icons",
-                        "slug": "icons.md"
+                        "path": "patterns/1.Foundations/5.Logos/1.Other-Logos/1.Other.md",
+                        "name": "Other Logo Positive",
+                        "slug": "1.Other.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    },
+                    {
+                        "path": "patterns/1.Foundations/5.Logos/1.Other-Logos/2.Other negative.md",
+                        "name": "Other Logo Negative",
+                        "slug": "2.Other negative.md",
+                        "meta": {
+                            "hidecode": true
+                        }
                     }
                 ]
             }
@@ -243,29 +241,14 @@
         "slug": "6.Iconography",
         "children": [
             {
-                "name": "Logos",
-                "slug": "1.Logos",
-                "children": [
-                    {
-                        "path": "patterns/1.Foundations/6.Iconography/1.Logos/1.logos.md",
-                        "name": "PLACEHOLDER",
-                        "slug": "1.logos.md",
-                        "meta": {
-                            "hidecode": true
-                        }
-                    }
-                ]
+                "path": "patterns/1.Foundations/6.Iconography/general.md",
+                "name": "General",
+                "slug": "general.md"
             },
             {
-                "name": "Icons",
-                "slug": "2.Icons",
-                "children": [
-                    {
-                        "path": "patterns/1.Foundations/6.Iconography/2.Icons/icons.md",
-                        "name": "Icons",
-                        "slug": "icons.md"
-                    }
-                ]
+                "path": "patterns/1.Foundations/6.Iconography/social.md",
+                "name": "Social",
+                "slug": "social.md"
             }
         ]
     }

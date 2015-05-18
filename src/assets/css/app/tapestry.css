@@ -2446,11 +2446,8 @@ code.tp {
   .palette.tp span {
     display: block; }
   .palette.tp .color {
-    height: 80px;
-    padding-top: 1.5em; }
-    @media only screen and (min-width: 600px) {
-      .palette.tp .color {
-        height: 120px; } }
+    height: 20px;
+    padding-top: 0; }
   .palette.tp.tint .color {
     height: 20px;
     padding-top: 0; }

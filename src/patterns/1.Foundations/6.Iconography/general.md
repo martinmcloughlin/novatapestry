@@ -1,0 +1,7 @@
+
+---
+name: General
+description: |
+  General icons refer to (non-social brands) iconography on site
+---
+TBC
