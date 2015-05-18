@@ -3,13 +3,13 @@
 name: Login form
 ---
 <div class="row">
-  <div class="columns five">
+  <div class="col-lg-5">
     <form>
       <div class="row">
-        <div class="columns six">
+        <div class="col-lg-6">
           <button class="btn btn--facebook btn--full btn--icon-left"><em class="fa fa-facebook fa-lg"></em>Sign in</button>
         </div>
-        <div class="columns six">
+        <div class="col-lg-6">
           <button class="btn btn--google btn--full btn--icon-left"><em class="fa fa-google-plus fa-lg"></em>Sign in</button>
         </div>
       </div>

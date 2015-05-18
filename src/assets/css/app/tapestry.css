@@ -2451,6 +2451,9 @@ code.tp {
     @media only screen and (min-width: 600px) {
       .palette.tp .color {
         height: 120px; } }
+  .palette.tp.tint .color {
+    height: 20px;
+    padding-top: 0; }
   .palette.tp h3 {
     color: #333;
     font-size: 14px;
@@ -2469,7 +2472,7 @@ code.tp {
     background: #eee;
     border: 1px #ddd solid; }
 
-*[class*='col-'] {
+.bordered-cols *[class*='col-'] {
   border: 1px #ddd solid;
   padding-top: 5px;
   padding-bottom: 5px; }

@@ -83,11 +83,18 @@
         "children": [
             {
                 "path": "patterns/2.Elements/5.FormElements/1.formElements.md",
-                "name": "PLACEHOLDER",
-                "slug": "1.formElements.md",
-                "meta": {
-                    "hidecode": true
-                }
+                "name": "Form component elements",
+                "slug": "1.formElements.md"
+            },
+            {
+                "path": "patterns/2.Elements/5.FormElements/2.field-sizes-cols.md",
+                "name": "Field sizes by column use",
+                "slug": "2.field-sizes-cols.md"
+            },
+            {
+                "path": "patterns/2.Elements/5.FormElements/9.form-error.md",
+                "name": "Form error message",
+                "slug": "9.form-error.md"
             }
         ]
     },
@@ -95,21 +102,6 @@
         "name": "Forms",
         "slug": "6.Forms",
         "children": [
-            {
-                "path": "patterns/2.Elements/6.Forms/1.fields.md",
-                "name": "Form fields",
-                "slug": "1.fields.md"
-            },
-            {
-                "path": "patterns/2.Elements/6.Forms/field-sizes.md",
-                "name": "Field sizes",
-                "slug": "field-sizes.md"
-            },
-            {
-                "path": "patterns/2.Elements/6.Forms/form-error.md",
-                "name": "Form error message",
-                "slug": "form-error.md"
-            },
             {
                 "path": "patterns/2.Elements/6.Forms/form-horizontal.md",
                 "name": "Horizontal form",

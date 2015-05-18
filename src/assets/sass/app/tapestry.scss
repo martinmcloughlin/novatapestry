@@ -820,7 +820,7 @@ $tp-menu-spacing: 20px;
     span{
         display: block;
     }
-
+    
     .color{
         //border-radius: 5px 5px 0 0;
         height: 80px;
@@ -830,7 +830,10 @@ $tp-menu-spacing: 20px;
             height: 120px;
         }
     }
-
+    &.tint .color{
+        height : 20px;
+        padding-top: 0;
+    }
     /*.color:last-child{
         border-radius: 0 0 5px 5px;
     }*/
@@ -860,7 +863,7 @@ $tp-menu-spacing: 20px;
     }
 }
 
-*[class*='col-']{
+.bordered-cols *[class*='col-']{
     border: 1px #ddd solid;
     padding-top: 5px;
     padding-bottom: 5px;

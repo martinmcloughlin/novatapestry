@@ -20,17 +20,9 @@
                 }
             },
             {
-                "path": "patterns/1.Foundations/1.Colours/3.secondary-colours.md",
-                "name": "Secondary Colours",
-                "slug": "3.secondary-colours.md",
-                "meta": {
-                    "hidecode": true
-                }
-            },
-            {
-                "path": "patterns/1.Foundations/1.Colours/99.full-colour-palette.md",
-                "name": "Full color palette",
-                "slug": "99.full-colour-palette.md",
+                "path": "patterns/1.Foundations/1.Colours/3.tint-modifiers.md",
+                "name": "Tint Modifiers",
+                "slug": "3.tint-modifiers.md",
                 "meta": {
                     "hidecode": true
                 }
@@ -39,44 +31,44 @@
     },
     {
         "name": "Typography",
-        "slug": "2.Typography",
+        "slug": "3.Typography",
         "children": [
             {
                 "name": "Base",
                 "slug": "1.Base",
                 "children": [
                     {
-                        "path": "patterns/1.Foundations/2.Typography/1.Base/0.unstyled.md",
+                        "path": "patterns/1.Foundations/3.Typography/1.Base/0.unstyled.md",
                         "name": "Default Unstyled",
                         "slug": "0.unstyled.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/2.Typography/1.Base/1.body-copy.md",
+                        "path": "patterns/1.Foundations/3.Typography/1.Base/1.body-copy.md",
                         "name": "Body copy",
                         "slug": "1.body-copy.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/2.Typography/1.Base/2.headings.md",
+                        "path": "patterns/1.Foundations/3.Typography/1.Base/2.headings.md",
                         "name": "Headings",
                         "slug": "2.headings.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/2.Typography/1.Base/3.text-alignment.md",
+                        "path": "patterns/1.Foundations/3.Typography/1.Base/3.text-alignment.md",
                         "name": "Text alignment",
                         "slug": "3.text-alignment.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/2.Typography/1.Base/4.blockquote.md",
+                        "path": "patterns/1.Foundations/3.Typography/1.Base/4.blockquote.md",
                         "name": "Blockquote",
                         "slug": "4.blockquote.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/2.Typography/1.Base/5.lead-copy.md",
+                        "path": "patterns/1.Foundations/3.Typography/1.Base/5.lead-copy.md",
                         "name": "Lead copy",
                         "slug": "5.lead-copy.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/2.Typography/1.Base/6.summary-copy.md",
+                        "path": "patterns/1.Foundations/3.Typography/1.Base/6.summary-copy.md",
                         "name": "Summary copy",
                         "slug": "6.summary-copy.md"
                     }
@@ -87,17 +79,17 @@
                 "slug": "2.Overrides",
                 "children": [
                     {
-                        "path": "patterns/1.Foundations/2.Typography/2.Overrides/bold-text.md",
+                        "path": "patterns/1.Foundations/3.Typography/2.Overrides/bold-text.md",
                         "name": "Bold text",
                         "slug": "bold-text.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/2.Typography/2.Overrides/italics-text.md",
+                        "path": "patterns/1.Foundations/3.Typography/2.Overrides/italics-text.md",
                         "name": "Italics",
                         "slug": "italics-text.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/2.Typography/2.Overrides/small-text.md",
+                        "path": "patterns/1.Foundations/3.Typography/2.Overrides/small-text.md",
                         "name": "Small",
                         "slug": "small-text.md"
                     }
@@ -108,110 +100,96 @@
                 "slug": "3.Lists",
                 "children": [
                     {
-                        "path": "patterns/1.Foundations/2.Typography/3.Lists/list-block.md",
+                        "path": "patterns/1.Foundations/3.Typography/3.Lists/list-block.md",
                         "name": "Block list",
                         "slug": "list-block.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/2.Typography/3.Lists/list-definition.md",
+                        "path": "patterns/1.Foundations/3.Typography/3.Lists/list-definition.md",
                         "name": "Definition list",
                         "slug": "list-definition.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/2.Typography/3.Lists/list-inline.md",
+                        "path": "patterns/1.Foundations/3.Typography/3.Lists/list-inline.md",
                         "name": "Inline list",
                         "slug": "list-inline.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/2.Typography/3.Lists/list-ordered.md",
+                        "path": "patterns/1.Foundations/3.Typography/3.Lists/list-ordered.md",
                         "name": "Ordered list",
                         "slug": "list-ordered.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/2.Typography/3.Lists/list-unordered.md",
+                        "path": "patterns/1.Foundations/3.Typography/3.Lists/list-unordered.md",
                         "name": "Unordered list",
                         "slug": "list-unordered.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/2.Typography/3.Lists/list-unstyled.md",
+                        "path": "patterns/1.Foundations/3.Typography/3.Lists/list-unstyled.md",
                         "name": "Unstyled list",
                         "slug": "list-unstyled.md"
                     }
                 ]
             },
             {
-                "path": "patterns/1.Foundations/2.Typography/text-size-p01.md",
+                "path": "patterns/1.Foundations/3.Typography/text-size-p01.md",
                 "name": "P1",
                 "slug": "text-size-p01.md"
             },
             {
-                "path": "patterns/1.Foundations/2.Typography/text-size-p02.md",
+                "path": "patterns/1.Foundations/3.Typography/text-size-p02.md",
                 "name": "P2",
                 "slug": "text-size-p02.md"
             },
             {
-                "path": "patterns/1.Foundations/2.Typography/text-size-p03.md",
+                "path": "patterns/1.Foundations/3.Typography/text-size-p03.md",
                 "name": "P3",
                 "slug": "text-size-p03.md"
             },
             {
-                "path": "patterns/1.Foundations/2.Typography/text-size-p04.md",
+                "path": "patterns/1.Foundations/3.Typography/text-size-p04.md",
                 "name": "P4",
                 "slug": "text-size-p04.md"
             },
             {
-                "path": "patterns/1.Foundations/2.Typography/text-size-p05.md",
+                "path": "patterns/1.Foundations/3.Typography/text-size-p05.md",
                 "name": "P5",
                 "slug": "text-size-p05.md"
             },
             {
-                "path": "patterns/1.Foundations/2.Typography/text-size-p06.md",
+                "path": "patterns/1.Foundations/3.Typography/text-size-p06.md",
                 "name": "P6",
                 "slug": "text-size-p06.md"
             },
             {
-                "path": "patterns/1.Foundations/2.Typography/text-size-p07.md",
+                "path": "patterns/1.Foundations/3.Typography/text-size-p07.md",
                 "name": "P7",
                 "slug": "text-size-p07.md"
             },
             {
-                "path": "patterns/1.Foundations/2.Typography/text-size-p08.md",
+                "path": "patterns/1.Foundations/3.Typography/text-size-p08.md",
                 "name": "P8",
                 "slug": "text-size-p08.md"
             },
             {
-                "path": "patterns/1.Foundations/2.Typography/text-size-p09.md",
+                "path": "patterns/1.Foundations/3.Typography/text-size-p09.md",
                 "name": "P9",
                 "slug": "text-size-p09.md"
             },
             {
-                "path": "patterns/1.Foundations/2.Typography/text-size-p10.md",
+                "path": "patterns/1.Foundations/3.Typography/text-size-p10.md",
                 "name": "P10",
                 "slug": "text-size-p10.md"
             },
             {
-                "path": "patterns/1.Foundations/2.Typography/text-size-p11.md",
+                "path": "patterns/1.Foundations/3.Typography/text-size-p11.md",
                 "name": "P11",
                 "slug": "text-size-p11.md"
             },
             {
-                "path": "patterns/1.Foundations/2.Typography/text-size-p12.md",
+                "path": "patterns/1.Foundations/3.Typography/text-size-p12.md",
                 "name": "P12",
                 "slug": "text-size-p12.md"
-            }
-        ]
-    },
-    {
-        "name": "TintModifiers",
-        "slug": "3.TintModifiers",
-        "children": [
-            {
-                "path": "patterns/1.Foundations/3.TintModifiers/1.modifiers.md",
-                "name": "PLACEHOLDER",
-                "slug": "1.modifiers.md",
-                "meta": {
-                    "hidecode": true
-                }
             }
         ]
     },
