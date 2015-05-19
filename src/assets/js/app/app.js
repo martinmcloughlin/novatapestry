@@ -53,7 +53,7 @@ angular.module('tapestry', [
         $routeProvider.when('/changelog', {
             title: 'Changelog',
             templateUrl: 'assets/js/templates/changelog.html',
-            controller: 'headerController'            
+            controller: 'headerController'
 
         })
 
@@ -77,10 +77,18 @@ angular.module('tapestry', [
 
             }
             
-            else if ((value.slug == "grids") || (value.slug == "responsivegrids") ){
+            else if ((value.slug == "grids") || (value.slug == "responsivegrids")){
     
                 $routeProvider.when('/' + value.slug + '/:slug', {
                     templateUrl: 'assets/js/templates/listing_no-sub.html',
+                    controller: 'listingController'
+                })
+            }
+
+            else if (value.slug == "globals"){
+    
+                $routeProvider.when('/' + value.slug + '/:slug', {
+                    templateUrl: 'assets/js/templates/listing_no-sub-innercontainers.html',
                     controller: 'listingController'
                 })
             }

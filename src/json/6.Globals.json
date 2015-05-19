@@ -1,30 +1,15 @@
 [
     {
-        "name": "Headers",
-        "slug": "1.Headers",
-        "children": [
-            {
-                "path": "patterns/6.Globals/1.Headers/1.header.md",
-                "name": "PLACEHOLDER",
-                "slug": "1.header.md",
-                "meta": {
-                    "hidecode": true
-                }
-            }
-        ]
+        "path": "patterns/6.Globals/1.primary-header.md",
+        "name": "Primary Header",
+        "slug": "1.primary-header.md"
     },
     {
-        "name": "Footers",
-        "slug": "2.Footers",
-        "children": [
-            {
-                "path": "patterns/6.Globals/2.Footers/1.footer.md",
-                "name": "PLACEHOLDER",
-                "slug": "1.footer.md",
-                "meta": {
-                    "hidecode": true
-                }
-            }
-        ]
+        "path": "patterns/6.Globals/8.primary-footer.md",
+        "name": "PLACEHOLDER",
+        "slug": "8.primary-footer.md",
+        "meta": {
+            "hidecode": true
+        }
     }
 ]

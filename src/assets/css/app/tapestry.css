@@ -2513,3 +2513,6 @@ code.tp {
   .container.tp.altered {
     margin: 0 20px 0 250px;
     width: auto; } }
+
+.container .container {
+  width: 100%; }

@@ -135,6 +135,27 @@
                 ]
             },
             {
+                "name": "Simple-Formatting",
+                "slug": "4.Simple-Formatting",
+                "children": [
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/4.Simple-Formatting/bold-text.md",
+                        "name": "Bold text",
+                        "slug": "bold-text.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/4.Simple-Formatting/italics-text.md",
+                        "name": "Italics",
+                        "slug": "italics-text.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/4.Simple-Formatting/small-text.md",
+                        "name": "Small",
+                        "slug": "small-text.md"
+                    }
+                ]
+            },
+            {
                 "name": "Lists",
                 "slug": "9.Lists",
                 "children": [
@@ -191,20 +212,20 @@
         "slug": "5.Logos",
         "children": [
             {
-                "name": "Brand-Logos",
-                "slug": "1.Brand-Logos",
+                "name": "Client-Logos",
+                "slug": "1.Client-Logos",
                 "children": [
                     {
-                        "path": "patterns/1.Foundations/5.Logos/1.Brand-Logos/1.Brand.md",
-                        "name": "Brand Logo Positive",
+                        "path": "patterns/1.Foundations/5.Logos/1.Client-Logos/1.Brand.md",
+                        "name": "Client Logo Positive",
                         "slug": "1.Brand.md",
                         "meta": {
                             "hidecode": true
                         }
                     },
                     {
-                        "path": "patterns/1.Foundations/5.Logos/1.Brand-Logos/2.Brand negative.md",
-                        "name": "Brand Logo Negative",
+                        "path": "patterns/1.Foundations/5.Logos/1.Client-Logos/2.Brand negative.md",
+                        "name": "Client Logo Negative",
                         "slug": "2.Brand negative.md",
                         "meta": {
                             "hidecode": true

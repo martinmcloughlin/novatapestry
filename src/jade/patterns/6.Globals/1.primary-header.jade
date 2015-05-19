@@ -1,0 +1,30 @@
+| ---
+| name: Primary Header
+| ---
+.primary-header.js-require
+	.container
+		.row
+			.col-lg-12.col-md-12.clearfix
+				ul.primary-header-icons
+					li.primary-header-icons--menu
+						a.primary-header-icons--anchor.primary-header-icons-menu(href="#")
+							i.icon-burger
+							span.visually-hidden Menu
+					li.primary-header-icons--search
+						a.primary-header-icons--anchor.js-search-trigger(href="#")
+							i.icon-search
+							span.visually-hidden Search
+		.row.position-modifier-relative
+			.col-lg-12.col-md-12
+				//+primaryBrand()
+				h1.primary-brand(class="#{componentModifyClass}")
+					a.primary-brand--anchor.site-momentumStore(href="/site/01_browse/mom0101-home.html")
+						span.text Nova
+
+				.primary-header--user-items.clearfix
+					//+primaryButtons()
+					.primary-header--login-items
+						//+primaryServiceNavigation()
+						//+primaryLoginRegister()
+
+				//+primarySearch()

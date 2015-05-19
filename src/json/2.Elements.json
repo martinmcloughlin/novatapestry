@@ -4,49 +4,39 @@
         "slug": "1.Buttons",
         "children": [
             {
-                "path": "patterns/2.Elements/1.Buttons/buttons-dark.md",
-                "name": "Buttons dark",
-                "slug": "buttons-dark.md"
+                "path": "patterns/2.Elements/1.Buttons/1.buttons-base.md",
+                "name": "Buttons default",
+                "slug": "1.buttons-base.md"
             },
             {
-                "path": "patterns/2.Elements/1.Buttons/buttons-groups.md",
-                "name": "Button groups",
-                "slug": "buttons-groups.md"
-            },
-            {
-                "path": "patterns/2.Elements/1.Buttons/buttons-icons.md",
-                "name": "Buttons with icons",
-                "slug": "buttons-icons.md"
-            },
-            {
-                "path": "patterns/2.Elements/1.Buttons/buttons-light.md",
-                "name": "Buttons light",
-                "slug": "buttons-light.md"
-            },
-            {
-                "path": "patterns/2.Elements/1.Buttons/buttons-primary.md",
+                "path": "patterns/2.Elements/1.Buttons/2.buttons-primary.md",
                 "name": "Buttons primary",
-                "slug": "buttons-primary.md"
+                "slug": "2.buttons-primary.md"
             },
             {
-                "path": "patterns/2.Elements/1.Buttons/buttons-secondary.md",
+                "path": "patterns/2.Elements/1.Buttons/3.buttons-secondary.md",
                 "name": "Buttons secondary",
-                "slug": "buttons-secondary.md"
+                "slug": "3.buttons-secondary.md"
             },
             {
-                "path": "patterns/2.Elements/1.Buttons/buttons-sizes.md",
+                "path": "patterns/2.Elements/1.Buttons/4.buttons-sizes.md",
                 "name": "Buttons sizes",
-                "slug": "buttons-sizes.md"
+                "slug": "4.buttons-sizes.md"
             },
             {
-                "path": "patterns/2.Elements/1.Buttons/buttons-variations.md",
+                "path": "patterns/2.Elements/1.Buttons/5.buttons-icons.md",
+                "name": "Buttons with icons",
+                "slug": "5.buttons-icons.md"
+            },
+            {
+                "path": "patterns/2.Elements/1.Buttons/6.buttons-variations.md",
                 "name": "Button variations",
-                "slug": "buttons-variations.md"
+                "slug": "6.buttons-variations.md"
             },
             {
-                "path": "patterns/2.Elements/1.Buttons/buttons-warning.md",
-                "name": "Buttons warning",
-                "slug": "buttons-warning.md"
+                "path": "patterns/2.Elements/1.Buttons/7.buttons-groups.md",
+                "name": "Button groups",
+                "slug": "7.buttons-groups.md"
             }
         ]
     },
@@ -108,14 +98,19 @@
                 "slug": "form-horizontal.md"
             },
             {
-                "path": "patterns/2.Elements/6.Forms/form-login.md",
-                "name": "Login form",
-                "slug": "form-login.md"
-            },
-            {
                 "path": "patterns/2.Elements/6.Forms/form-subscribe.md",
                 "name": "Subscribe form",
                 "slug": "form-subscribe.md"
+            },
+            {
+                "path": "patterns/2.Elements/6.Forms/nova-login.md",
+                "name": "Nova Login form",
+                "slug": "nova-login.md"
+            },
+            {
+                "path": "patterns/2.Elements/6.Forms/nova-register.md",
+                "name": "Nova Registration Form",
+                "slug": "nova-register.md"
             }
         ]
     },

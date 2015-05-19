@@ -1,0 +1,34 @@
+| ---
+| name: Nova Login form
+| ---
+
+.account-login
+   h2.header-2 I'm a returning customer 
+   //-var loginFormMessage = JSON.stringify(config.validations.blocks['account_login']);
+   form(action='#', method='post', data-validation='#{loginFormMessage}')
+      .control-group
+         label(for='frm-email') Email address
+
+         .controls.full-width-input
+            //-var emailFieldValidations = JSON.stringify(config.validations.common["email"]);
+            input.controls--input(type='text',name='frm-email', id='frm-email', data-validation='#{emailFieldValidations}')
+
+      .control-group
+         label(for='frm-password') Password
+
+         .controls.full-width-input
+            //-var passwordFieldValidations = JSON.stringify(config.validations.common["password"]);
+            input.controls--input(type='password', id='frm-password', data-validation='#{passwordFieldValidations}')
+
+      p
+         a(href='#') I've forgotten my password
+
+
+      .control-binary
+         label.binary-label
+            | Sign me in automatically
+            input.input-checkbox(type='checkbox', id='frm-auto-login')
+
+      .form-actions.account-login--form-actions
+         input.btn.btn-2(type='submit', value='Sign in')
+        

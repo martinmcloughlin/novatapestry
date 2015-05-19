@@ -69,6 +69,32 @@ angular.module('tapestry.directives', [])
 			
 		}
 	})
+	.directive('previewOnlyRow', function(){
+		
+		return {
+			
+			restrict: 'A',
+			scope: {
+				patterns: '='
+			},
+			template: '<div once-wait-for="patterns" once-show="patterns.path" class="block block--example tp"> \
+							<div class="block block--preview tp row"><div raw-include="raw-include" patterns="patterns" src="patterns.path"></div></div> \
+							<div class="block block--description tp"> \
+								<div class="patterns-description tp"></div> \
+							</div> \
+							<div once-wait-for="patterns" once-hide="patterns.meta.hidecode" class="example-code tp"> \
+								<a class="toggle-code tp" ng-hide="patterns.meta.hidecode" ng-class="{active:patterns.togglecode}" ng-click="patterns.togglecode = !patterns.togglecode"><em class="fa fa-code fa-lg tp" /></a> \
+								<pre ng-show="patterns.togglecode"><code class="language-markup tp"></code></pre> \
+							</div> \
+							<div class="block--meta tp" ng-show="patterns.meta.length"> \
+								<div ng-repeat="meta in patterns.meta"> \
+									{{meta}} \
+								</div> \
+							</div>\
+						</div>'
+			
+		}
+	})
 	.directive('rawInclude', [
 		 '$http', '$templateCache', '$compile', '$q', '$timeout',
 		 	function ($http, $templateCache, $compile, $q, $timeout) {

@@ -1,0 +1,31 @@
+| ---
+| name: Nova Registration Form
+| ---
+
+- var optionDefaults = {};
+- optionDefaults.showField = true;
+- optionDefaults.btnValue = 'Begin Checkout';
+
+//- var options = objectExtend(optionDefaults, optionParams);
+
+
+.account-register
+   h2.header-2 New to the Canon Store
+   - if(optionDefaults.showField == true){
+   //- if(options.showField == true){
+   //-var formValidationMessages = JSON.stringify(config.validations.blocks["account_register"])
+   form(data-disable-overview='true', action='#', method='post',data-validation="#{formValidationMessages}")
+      .control-group
+         label(for='email') Email address
+
+         .controls.full-width-input
+            //-var emailFieldValidation = JSON.stringify(config.validations.common.email);
+            input.controls--input.account-actions-input(type='text', id='email', data-validation="#{emailFieldValidation}")
+
+   - }else {
+   p.p-4 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+   - }
+   p
+      input.btn.btn-2(type="submit", value=optionDefaults.btnValue)
+      //input.btn.btn-2(type="submit", value=options.btnValue)
+
