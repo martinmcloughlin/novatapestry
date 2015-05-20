@@ -44,116 +44,147 @@
                 "slug": "1.headings.md"
             },
             {
-                "path": "patterns/1.Foundations/3.Typography/2.body-copy.md",
-                "name": "Base paragraph",
-                "slug": "2.body-copy.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/3.text-alignment.md",
-                "name": "Text alignment",
-                "slug": "3.text-alignment.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/3.text-size-p01.md",
-                "name": "P1",
-                "slug": "3.text-size-p01.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/3.text-size-p02.md",
-                "name": "P2",
-                "slug": "3.text-size-p02.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/3.text-size-p03.md",
-                "name": "P3",
-                "slug": "3.text-size-p03.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/3.text-size-p04.md",
-                "name": "P4",
-                "slug": "3.text-size-p04.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/3.text-size-p05.md",
-                "name": "P5",
-                "slug": "3.text-size-p05.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/3.text-size-p06.md",
-                "name": "P6",
-                "slug": "3.text-size-p06.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/3.text-size-p07.md",
-                "name": "P7",
-                "slug": "3.text-size-p07.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/3.text-size-p08.md",
-                "name": "P8",
-                "slug": "3.text-size-p08.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/3.text-size-p09.md",
-                "name": "P9",
-                "slug": "3.text-size-p09.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/3.text-size-p10.md",
-                "name": "P10",
-                "slug": "3.text-size-p10.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/3.text-size-p11.md",
-                "name": "P11",
-                "slug": "3.text-size-p11.md"
-            },
-            {
-                "path": "patterns/1.Foundations/3.Typography/3.text-size-p12.md",
-                "name": "P12",
-                "slug": "3.text-size-p12.md"
-            },
-            {
-                "name": "Base-Formatting",
-                "slug": "4.Base-Formatting",
+                "name": "Heading-Classes",
+                "slug": "2.Heading-Classes",
                 "children": [
                     {
-                        "path": "patterns/1.Foundations/3.Typography/4.Base-Formatting/bold-text.md",
-                        "name": "Bold text",
-                        "slug": "bold-text.md"
+                        "path": "patterns/1.Foundations/3.Typography/2.Heading-Classes/3.text-size-h01.md",
+                        "name": "Header-1",
+                        "slug": "3.text-size-h01.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/3.Typography/4.Base-Formatting/italics-text.md",
-                        "name": "Italics",
-                        "slug": "italics-text.md"
+                        "path": "patterns/1.Foundations/3.Typography/2.Heading-Classes/3.text-size-h02.md",
+                        "name": "Header-2",
+                        "slug": "3.text-size-h02.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/3.Typography/4.Base-Formatting/small-text.md",
-                        "name": "Small",
-                        "slug": "small-text.md"
+                        "path": "patterns/1.Foundations/3.Typography/2.Heading-Classes/3.text-size-h03.md",
+                        "name": "Header-3",
+                        "slug": "3.text-size-h03.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/2.Heading-Classes/3.text-size-h04.md",
+                        "name": "Header-4",
+                        "slug": "3.text-size-h04.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/2.Heading-Classes/3.text-size-h05.md",
+                        "name": "Header-5",
+                        "slug": "3.text-size-h05.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/2.Heading-Classes/3.text-size-h06.md",
+                        "name": "Header-6",
+                        "slug": "3.text-size-h06.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/2.Heading-Classes/3.text-size-h07.md",
+                        "name": "Header-7",
+                        "slug": "3.text-size-h07.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/2.Heading-Classes/3.text-size-h08.md",
+                        "name": "Header-8",
+                        "slug": "3.text-size-h08.md"
+                    }
+                ]
+            },
+            {
+                "path": "patterns/1.Foundations/3.Typography/3.body-copy.md",
+                "name": "Base paragraph",
+                "slug": "3.body-copy.md"
+            },
+            {
+                "name": "Paragraph-Classes",
+                "slug": "4.Paragraph-Classes",
+                "children": [
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/4.Paragraph-Classes/3.text-size-p01.md",
+                        "name": "P1",
+                        "slug": "3.text-size-p01.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/4.Paragraph-Classes/3.text-size-p02.md",
+                        "name": "P2",
+                        "slug": "3.text-size-p02.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/4.Paragraph-Classes/3.text-size-p03.md",
+                        "name": "P3",
+                        "slug": "3.text-size-p03.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/4.Paragraph-Classes/3.text-size-p04.md",
+                        "name": "P4",
+                        "slug": "3.text-size-p04.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/4.Paragraph-Classes/3.text-size-p05.md",
+                        "name": "P5",
+                        "slug": "3.text-size-p05.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/4.Paragraph-Classes/3.text-size-p06.md",
+                        "name": "P6",
+                        "slug": "3.text-size-p06.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/4.Paragraph-Classes/3.text-size-p07.md",
+                        "name": "P7",
+                        "slug": "3.text-size-p07.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/4.Paragraph-Classes/3.text-size-p08.md",
+                        "name": "P8",
+                        "slug": "3.text-size-p08.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/4.Paragraph-Classes/3.text-size-p09.md",
+                        "name": "P9",
+                        "slug": "3.text-size-p09.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/4.Paragraph-Classes/3.text-size-p10.md",
+                        "name": "P10",
+                        "slug": "3.text-size-p10.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/4.Paragraph-Classes/3.text-size-p11.md",
+                        "name": "P11",
+                        "slug": "3.text-size-p11.md"
+                    },
+                    {
+                        "path": "patterns/1.Foundations/3.Typography/4.Paragraph-Classes/3.text-size-p12.md",
+                        "name": "P12",
+                        "slug": "3.text-size-p12.md"
                     }
                 ]
             },
             {
                 "name": "Simple-Formatting",
-                "slug": "4.Simple-Formatting",
+                "slug": "5.Simple-Formatting",
                 "children": [
                     {
-                        "path": "patterns/1.Foundations/3.Typography/4.Simple-Formatting/bold-text.md",
+                        "path": "patterns/1.Foundations/3.Typography/5.Simple-Formatting/bold-text.md",
                         "name": "Bold text",
                         "slug": "bold-text.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/3.Typography/4.Simple-Formatting/italics-text.md",
+                        "path": "patterns/1.Foundations/3.Typography/5.Simple-Formatting/italics-text.md",
                         "name": "Italics",
                         "slug": "italics-text.md"
                     },
                     {
-                        "path": "patterns/1.Foundations/3.Typography/4.Simple-Formatting/small-text.md",
+                        "path": "patterns/1.Foundations/3.Typography/5.Simple-Formatting/small-text.md",
                         "name": "Small",
                         "slug": "small-text.md"
                     }
                 ]
+            },
+            {
+                "path": "patterns/1.Foundations/3.Typography/6.text-alignment.md",
+                "name": "Text alignment",
+                "slug": "6.text-alignment.md"
             },
             {
                 "name": "Lists",

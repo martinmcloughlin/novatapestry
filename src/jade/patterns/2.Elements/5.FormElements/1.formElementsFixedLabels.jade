@@ -1,5 +1,5 @@
 | ---
-| name: Form component elements
+| name: Form component elements - fixed inline label widths
 | description: |
 |    ### What
 |    This is a full list of all elements used in forms
@@ -7,13 +7,13 @@
 form
 	fieldset
 		.control-group.required
-			label(for='frm-email')
+			label.control-label(for='frm-email')
 				| Label
 				em(title='Required', role='presentation') *
 			.controls
 				input#frm-email(type='text', name='frm-email', required='required', aria-required='true')
 		.control-group.required
-			label(for='frm-email')
+			label.control-label(for='frm-email')
 				| Label select
 				em(title='Required', role='presentation') *
 			.controls
@@ -24,34 +24,34 @@ form
 					option(value='4') 4
 					option(value='5') 5
 		.control-group.required
-			label(for='frm-email')
+			label.control-label(for='frm-email')
 				| This is a longer Label (this may wrap)
 				em(title='Required', role='presentation') *
 			.controls
 				input#frm-email(type='text', name='frm-email', required='required', aria-required='true')
 		.control-group.required
-			label(for='frm-email')
+			label.control-label(for='frm-email')
 				| Label (field Size Modifiers)
 				em(title='Required', role='presentation') *
 			.controls
 				input#frm-email.field-col-1(type='text', name='frm-email', required='required', aria-required='true', placeholder='field-col-1')
 				input#frm-email.field-col-1(type='text', name='frm-email', required='required', aria-required='true', placeholder='field-col-1')
 		.control-group.required
-			label(for='frm-email')
+			label.control-label(for='frm-email')
 				| Label (field Size Modifiers)
 				em(title='Required', role='presentation') *
 			.controls
 				input#frm-email.field-col-2(type='text', name='frm-email', required='required', aria-required='true', placeholder='field-col-2')
 				input#frm-email.field-col-2(type='text', name='frm-email', required='required', aria-required='true', placeholder='field-col-2')
 		.control-group.required
-			label(for='frm-email')
+			label.control-label(for='frm-email')
 				| This is a longer Label (this may wrap) (field Size Modifiers)
 				em(title='Required', role='presentation') *
 			.controls
 				input#frm-email.field-col-1(type='text', name='frm-email', required='required', aria-required='true', placeholder='field-col-1')
 				input#frm-email.field-col-3(type='text', name='frm-email', required='required', aria-required='true', placeholder='field-col-3')
 		.control-group.required
-			label(for='frm-email')
+			label.control-label(for='frm-email')
 				| Label select (field Size Modifiers)
 				em(title='Required', role='presentation') *
 			.controls
@@ -68,7 +68,7 @@ form
 					option(value='4') 4
 					option(value='5') 5
 		.control-group.required
-			label(for='frm-email')
+			label.control-label(for='frm-email')
 				| Label select (field Size Modifiers)
 				em(title='Required', role='presentation') *
 			.controls
@@ -85,7 +85,7 @@ form
 					option(value='4') 4
 					option(value='5') 5
 		.control-group.required
-			label(for='frm-email')
+			label.control-label(for='frm-email')
 				| Label select (field Size Modifiers)
 				em(title='Required', role='presentation') *
 			.controls
@@ -95,14 +95,14 @@ form
 					option(value='3') 3
 					option(value='4') 4
 					option(value='5') 5
-				select.field-col-3
+				select.field-col-1
 					option(value='1') 1
 					option(value='2') 2
 					option(value='3') 3
 					option(value='4') 4
 					option(value='5') 5
 		.control-binary.required
-			label(for='frm-email')
+			label.control-label(for='frm-email')
 				| Some control binary label
 				em(title='Required', role='presentation') *
 			.controls
@@ -125,7 +125,7 @@ form
 					input.input-radio(type='radio')
 					| Purple
 		.control-binary.required
-			label(for='frm-email')
+			label.control-label(for='frm-email')
 				| Some control binary label
 				em(title='Required', role='presentation') *
 			.controls
@@ -135,18 +135,3 @@ form
 				label.binary-label.field-col-2
 					input.input-radio(type='radio')
 					| This is longer selection label
-		.control-binary.required
-			label.binary-label(for='frm-email')
-				| Some longer control binary label next to a checkbox
-				em(title='Required', role='presentation') *
-				input.input-checkbox(type='checkbox')
-		.control-binary.required
-			.controls
-				label.binary-label.field-col-2(for='frm-email')
-					| Some longer control binary label next to a checkbox
-					em(title='Required', role='presentation') *
-					input.input-checkbox(type='checkbox')
-				label.binary-label.field-col-2(for='frm-email')
-					| Some longer control binary label next to a checkbox
-					em(title='Required', role='presentation') *
-					input.input-checkbox(type='checkbox')

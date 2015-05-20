@@ -313,6 +313,11 @@
                 "slug": "1.formElements.md"
             },
             {
+                "path": "patterns/2.Elements/5.FormElements/1.formElementsFixedLabels.md",
+                "name": "Form component elements - fixed inline label widths",
+                "slug": "1.formElementsFixedLabels.md"
+            },
+            {
                 "path": "patterns/2.Elements/5.FormElements/2.field-sizes-cols.md",
                 "name": "Field sizes by column use",
                 "slug": "2.field-sizes-cols.md"

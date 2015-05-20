@@ -16,17 +16,33 @@
         }
     },
     {
-        "path": "patterns/0.ResponsiveGrids/2.grid-tablet.md",
+        "path": "patterns/0.ResponsiveGrids/3.grid-tablet.md",
         "name": "Grid tablet",
-        "slug": "2.grid-tablet.md",
+        "slug": "3.grid-tablet.md",
         "meta": {
             "hidecode": true
         }
     },
     {
-        "path": "patterns/0.ResponsiveGrids/3.grid-mobile.md",
+        "path": "patterns/0.ResponsiveGrids/4.grid-tablet-nested.md",
+        "name": "Grid tablet nested",
+        "slug": "4.grid-tablet-nested.md",
+        "meta": {
+            "hidecode": true
+        }
+    },
+    {
+        "path": "patterns/0.ResponsiveGrids/5.grid-mobile.md",
         "name": "Grid mobile",
-        "slug": "3.grid-mobile.md",
+        "slug": "5.grid-mobile.md",
+        "meta": {
+            "hidecode": true
+        }
+    },
+    {
+        "path": "patterns/0.ResponsiveGrids/6.grid-mobile-nested.md",
+        "name": "Grid mobile nested",
+        "slug": "6.grid-mobile-nested.md",
         "meta": {
             "hidecode": true
         }
