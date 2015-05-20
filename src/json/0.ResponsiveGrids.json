@@ -8,6 +8,14 @@
         }
     },
     {
+        "path": "patterns/0.ResponsiveGrids/2.grid-desktop-nested.md",
+        "name": "Grid desktop nested",
+        "slug": "2.grid-desktop-nested.md",
+        "meta": {
+            "hidecode": true
+        }
+    },
+    {
         "path": "patterns/0.ResponsiveGrids/2.grid-tablet.md",
         "name": "Grid tablet",
         "slug": "2.grid-tablet.md",

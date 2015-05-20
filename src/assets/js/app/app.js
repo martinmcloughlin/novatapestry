@@ -77,7 +77,7 @@ angular.module('tapestry', [
 
             }
             
-            else if ((value.slug == "grids") || (value.slug == "responsivegrids")){
+            else if ((value.slug == "grids") || (value.slug == "responsivegrids") || (value.slug == "banners")){
     
                 $routeProvider.when('/' + value.slug + '/:slug', {
                     templateUrl: 'assets/js/templates/listing_no-sub.html',

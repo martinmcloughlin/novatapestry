@@ -19,8 +19,50 @@
         "children": [
             {
                 "path": "patterns/5.Banners/2.BannerStyle1/1.bannerS1.md",
-                "name": "PLACEHOLDER",
+                "name": "Banner Style 1",
                 "slug": "1.bannerS1.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "BannerStyle1Dark",
+        "slug": "2.BannerStyle1Dark",
+        "children": [
+            {
+                "path": "patterns/5.Banners/2.BannerStyle1Dark/1.bannerS1d.md",
+                "name": "Banner Style 1 Dark",
+                "slug": "1.bannerS1d.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "BannerStyle1Light",
+        "slug": "2.BannerStyle1Light",
+        "children": [
+            {
+                "path": "patterns/5.Banners/2.BannerStyle1Light/1.bannerS1l.md",
+                "name": "Banner Style 1 Light",
+                "slug": "1.bannerS1l.md",
+                "meta": {
+                    "hidecode": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "BannerStyle1RightAlign",
+        "slug": "2.BannerStyle1RightAlign",
+        "children": [
+            {
+                "path": "patterns/5.Banners/2.BannerStyle1RightAlign/1.bannerS1r.md",
+                "name": "Banner Style 1 right Aligned",
+                "slug": "1.bannerS1r.md",
                 "meta": {
                     "hidecode": true
                 }

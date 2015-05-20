@@ -1,5 +1,28 @@
 | ---
-| name: PLACEHOLDER
+| name: Banner Style 1
 | hidecode: true
 | ---
-| PLACEHOLDER
+.live-text-banner.live-text-banner--style-1
+	a(href='#')
+		picture.js-require(data-js-require='app/blocks/picturefillResponsiveImage')
+			//if IE 9
+				video(style='display: none;')
+			source(srcset='assets/img/content/banners/live_text_banner_1_1680x400.jpg', media='(min-width: 1200px)')
+			source(srcset='assets/img/content/banners/live_text_banner_1_1680x400.jpg', media='(min-width: 992px)')
+			source(srcset='assets/img/content/banners/live_text_banner_1_1680x400.jpg', media='(min-width: 768px)')
+			source(srcset='assets/img/content/banners/live_text_banner_1_1680x400.jpg', media='(max-width: 767px)')
+			//if IE 9
+			img(srcset='assets/img/content/banners/live_text_banner_1_1680x400.jpg', alt='This is the alt text')
+		.container
+			.row
+				.col-lg-12.col-md-12.col-sm-12.col-xs-12
+					.live-text-banner--wrapper
+						.live-text-banner--text-block
+							h2.banner-1 Get it faster
+							p.subheading Free express shipping with purchase over &pound;100
+							.live-text-banner--banner-footer
+								.subheading2
+									.pricing
+										span.price-now
+											span.price-free FREE!
+								span.link-box--banner-1 Shop now

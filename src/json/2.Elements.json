@@ -19,6 +19,11 @@
                 "slug": "3.buttons-secondary.md"
             },
             {
+                "path": "patterns/2.Elements/1.Buttons/3.buttons-tertiary.md",
+                "name": "Buttons tertiary",
+                "slug": "3.buttons-tertiary.md"
+            },
+            {
                 "path": "patterns/2.Elements/1.Buttons/4.buttons-sizes.md",
                 "name": "Buttons sizes",
                 "slug": "4.buttons-sizes.md"
@@ -45,9 +50,240 @@
         "slug": "3.Links",
         "children": [
             {
-                "path": "patterns/2.Elements/3.Links/links.md",
+                "path": "patterns/2.Elements/3.Links/1.links.md",
                 "name": "Links",
-                "slug": "links.md"
+                "slug": "1.links.md"
+            },
+            {
+                "name": "AnchorAndLinkModifiers",
+                "slug": "2.AnchorAndLinkModifiers",
+                "children": [
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/1.Delete.md",
+                        "name": "Delete",
+                        "slug": "1.Delete.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/1.Edit.md",
+                        "name": "Edit",
+                        "slug": "1.Edit.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/1.More.md",
+                        "name": "More",
+                        "slug": "1.More.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/1.Remove.md",
+                        "name": "Remove",
+                        "slug": "1.Remove.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/1.back.md",
+                        "name": "Back",
+                        "slug": "1.back.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/1.clear.md",
+                        "name": "Clear",
+                        "slug": "1.clear.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/2.Address-item-add.md",
+                        "name": "Address item add",
+                        "slug": "2.Address-item-add.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/2.link-box.md",
+                        "name": "Link Box",
+                        "slug": "2.link-box.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/3.Tip-ungroup-items.md",
+                        "name": "Tip ungroup items",
+                        "slug": "3.Tip-ungroup-items.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/4.Category-stamp-img.md",
+                        "name": "Category Stamp Anchor",
+                        "slug": "4.Category-stamp-img.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/4.Category-stamp.md",
+                        "name": "Category Stamp",
+                        "slug": "4.Category-stamp.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/5.Hero-product-tile-img.md",
+                        "name": "Hero product tile image",
+                        "slug": "5.Hero-product-tile-img.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/5.Hero-product-tile-link.md",
+                        "name": "Hero product tile link",
+                        "slug": "5.Hero-product-tile-link.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/5.Hero-product-tile.md",
+                        "name": "Hero product tile",
+                        "slug": "5.Hero-product-tile.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/5.product-filter-clear.md",
+                        "name": "Product Filter Clear",
+                        "slug": "5.product-filter-clear.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/5.product-filter-links.md",
+                        "name": "Product Filter Links",
+                        "slug": "5.product-filter-links.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/5.product-filter-more.md",
+                        "name": "Product Filter More",
+                        "slug": "5.product-filter-more.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/5.product-filter-page-clear.md",
+                        "name": "Product Filter Page Clear",
+                        "slug": "5.product-filter-page-clear.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/5.product-filter-rating.md",
+                        "name": "Product Filter rating",
+                        "slug": "5.product-filter-rating.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/6.Checkout-progress.md",
+                        "name": "Checkout progress",
+                        "slug": "6.Checkout-progress.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/6.Hotspot-content.md",
+                        "name": "Hotspot content",
+                        "slug": "6.Hotspot-content.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/6.Hotspot-editor-img.md",
+                        "name": "Hotspot editor image",
+                        "slug": "6.Hotspot-editor-img.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/6.Nav-panel.md",
+                        "name": "nav panel",
+                        "slug": "6.Nav-panel.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/6.control-group.md",
+                        "name": "Control group",
+                        "slug": "6.control-group.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/6.mini-list-delete.md",
+                        "name": "Mini list delete",
+                        "slug": "6.mini-list-delete.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/6.mini-promo-anchor.md",
+                        "name": "Mini promo anchor",
+                        "slug": "6.mini-promo-anchor.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/6.product-image-zoom.md",
+                        "name": "Prouct Image Zoom",
+                        "slug": "6.product-image-zoom.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/6.product-thumbnail-tile.md",
+                        "name": "Product Thumbnail Tile",
+                        "slug": "6.product-thumbnail-tile.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/6.product-tile-description.md",
+                        "name": "Product Tile Description",
+                        "slug": "6.product-tile-description.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/6.product-tile-header.md",
+                        "name": "Product Tile Header",
+                        "slug": "6.product-tile-header.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/6.product-tile-list-header.md",
+                        "name": "Product Tile List Header",
+                        "slug": "6.product-tile-list-header.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/6.promo-dept-hero-tile.md",
+                        "name": "Product Dept. Hero Tile",
+                        "slug": "6.promo-dept-hero-tile.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/6.promo-strap-tile.md",
+                        "name": "Promo strap tile",
+                        "slug": "6.promo-strap-tile.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/6.search-refinement.md",
+                        "name": "Search Refinement",
+                        "slug": "6.search-refinement.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/7.Mini-basket.md",
+                        "name": "Mini Basket",
+                        "slug": "7.Mini-basket.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/7.My-account-title.md",
+                        "name": "My Account title",
+                        "slug": "7.My-account-title.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/7.Primary-breadcrumb.md",
+                        "name": "Primary breadcrumb",
+                        "slug": "7.Primary-breadcrumb.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/7.Primary-navigation.md",
+                        "name": "Primary Navigation",
+                        "slug": "7.Primary-navigation.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/7.Primary-service-navigation.md",
+                        "name": "Primary Service Navigation",
+                        "slug": "7.Primary-service-navigation.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/7.Secondary-navigation.md",
+                        "name": "Secondary Navigation",
+                        "slug": "7.Secondary-navigation.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/7.language-selector.md",
+                        "name": "Edit",
+                        "slug": "7.language-selector.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/8.Header-checkout.md",
+                        "name": "Header checkout",
+                        "slug": "8.Header-checkout.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/8.Primary-brand.md",
+                        "name": "Primary Brand",
+                        "slug": "8.Primary-brand.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/8.Primary-corp-footer-anchor.md",
+                        "name": "Primary Corporate footer",
+                        "slug": "8.Primary-corp-footer-anchor.md"
+                    },
+                    {
+                        "path": "patterns/2.Elements/3.Links/2.AnchorAndLinkModifiers/9.text-only-promo.md",
+                        "name": "Text only promo",
+                        "slug": "9.text-only-promo.md"
+                    }
+                ]
             }
         ]
     },

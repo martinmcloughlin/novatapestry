@@ -2048,7 +2048,6 @@ html.tp[ng-app] {
     word-wrap: break-word; }
     @media only screen and (min-width: 1400px) {
       .tapestry-menu-side ul {
-        position: fixed;
         max-width: 180px; } }
   .tapestry-menu-side li {
     display: inline-block;
@@ -2074,7 +2073,9 @@ html.tp[ng-app] {
       position: fixed;
       left: 250px;
       top: 100px;
-      width: 200px; }
+      width: 200px;
+      bottom: 0;
+      overflow: scroll; }
       .tapestry-menu-side li {
         display: block;
         width: auto; } }
@@ -2371,7 +2372,8 @@ html.tp[ng-app] {
 
 .block--preview.tp {
   padding: 15px;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  position: relative; }
 
 .block--example.tp {
   background: #fff;
@@ -2400,7 +2402,7 @@ code.tp {
 .toggle-code.tp {
   position: absolute;
   right: 10px;
-  top: -40px;
+  top: -22px;
   text-decoration: none;
   cursor: pointer;
   color: #888;

@@ -282,7 +282,7 @@ html.tp[ng-app]{
         word-wrap: break-word;
 
         @include media-query(widescreen){
-            position: fixed;
+            //position: fixed;
             max-width: 180px;
         }
     }
@@ -325,6 +325,8 @@ html.tp[ng-app]{
         left: 250px;
         top: 100px;
         width: 200px;
+        bottom: 0;
+        overflow: scroll;
         li{
             display: block;
             width: auto;
@@ -480,6 +482,7 @@ $tp-menu-spacing: 20px;
         .block--preview.tp {
             //padding-bottom : 15px;
             padding: 0 15px 40px;
+            
         }
     }
 }
@@ -729,6 +732,7 @@ $tp-menu-spacing: 20px;
     .block--preview.tp{
         padding: 15px;
         padding-bottom: 40px;
+        position: relative;
     }
 
     .block--example.tp{
@@ -767,7 +771,7 @@ $tp-menu-spacing: 20px;
     .toggle-code.tp{
         position: absolute;
         right: 10px;
-        top: -40px;
+        top: -22px;
         text-decoration: none;
         cursor: pointer;
         color: #888;
