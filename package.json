@@ -1,10 +1,10 @@
 {
-  "name": "Tapestry",
-  "version": "1.0.0",
-  "description": "An app for creating and managing your front-end pattern library",
+  "name": "NovaTapestry",
+  "version": "1.0.1",
+  "description": "An app for creating and managing your front-end pattern library. based on https://github.com/pebbleRoad/tapestry",
   "homepage": "https://github.com/pebbleRoad/tapestry",
   "author": {
-    "name": "Vinay M",
+    "name": "Vinay M // Martin McLoughlin",
     "url": "https://github.com/pebbleRoad/tapestry"
   },
   "licenses": [
@@ -24,24 +24,22 @@
     "node": ">=0.8.0"
   },
   "devDependencies": {
-    "gulp": "~3.5.2",
-    "gulp-util": "~2.2.14",
-    "gulp-jade": "~0.4.2",
-    "gulp-sass": "~0.7.1",
-    "gulp-cssmin": "~0.1.0",
-    "gulp-clean": "~0.2.4",
-    "tiny-lr": "0.0.5",
-    "path": "~0.4.9",
-    "http": "0.0.0",
     "ecstatic": "~0.4.13",
-    "gulp-embedlr": "~0.5.2",
-    "gulp-prettify": "~0.1.2",
+    "event-stream": "^3.3.1",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jade": "^0.14.1",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-gulp": "^0.1.0",
+    "gulp-tree": "0.1.4",
+    "gulp-util": "~2.2.14",
+    "http": "0.0.0",
     "js-yaml": "~3.0.1",
     "marked": "~0.3.1",
-    "gulp-rename": "~1.1.0",
-    "gulp-tree": "0.1.4",
-    "gulp-prune-html": "git://github.com/rmdort/gulp-prune-html",
-    "gulp-script-inject": "0.0.6"
+    "path": "~0.4.9",
+    "through2": "^0.6.5",
+    "tiny-lr": "0.0.5"
   },
   "dependencies": {}
 }
